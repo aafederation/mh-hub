@@ -1,9 +1,23 @@
 import { Layout } from "../components/Layout";
 import { MainBody } from "../components/MainBody";
+import { Hero } from "@/components/Hero";
+import client from "@/tina/__generated__/client";
+import { useTina } from "tinacms/dist/react";
 
-export default function Home() {
+export async function getStaticProps() {
+  const result = await client.queries.page({ relativePath: "home.md" });
+
+  return {
+    props: { result },
+  };
+}
+
+export default function Home({ result }) {
+  const { data } = useTina(result);
+
   return (
     <Layout>
+      <Hero homeData={data.page} />
       <div
         className="wrapper gap-top-1000 gap-bottom-1000"
         data-variant="no-padding"
