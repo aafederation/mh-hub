@@ -10,11 +10,14 @@ export default {
   label: "Posts",
   name: "post",
   path: "content/post",
+  // Setting a default will auto-populate new items with the given values
+  defaultItem: {
+    draft: true,
+  },
   fields: [
-    { type: "boolean", label: "Draft", name: "draft", defaultItem: true },
+    { type: "boolean", label: "Draft", name: "draft" },
     { type: "string", label: "Title", name: "title", required: true },
     { type: "datetime", label: "Date", name: "date", required: true },
-    { type: "number", label: "Priority", name: "priority" },
     {
       type: "string",
       label: "Category",
@@ -33,12 +36,12 @@ export default {
       type: "string",
       label: "Type",
       name: "type",
-      required: true,
       options: postType,
+      required: true,
     },
     {
       type: "string",
-      label: "Link url",
+      label: "Link url (for Type: Link posts)",
       name: "linkUrl",
       ui: {
         parse(value) {
@@ -46,6 +49,7 @@ export default {
         },
       },
     },
+    { type: "number", label: "Priority", name: "priority" },
     {
       type: "image",
       name: "image",
@@ -75,17 +79,21 @@ export default {
     },
   ],
   ui: {
-    // router: ({ document }) => {
-    //   return `/posts/${document._sys.filename}`;
-    // },
     filename: {
-      // if disabled, the editor can not edit the filename
       readonly: true,
-      // Example of using a custom slugify function
       slugify: (values) => {
-        // Values is an object containing all the values of the form. In this case it is {title?: string, topic?: string}
-        return `${values?.title?.toLowerCase().replace(/ /g, "-")}`;
+        return `${values?.type || "type"}-${values?.title
+          ?.toLowerCase()
+          .replace(/ /g, "-")}`;
       },
+    },
+    router: ({ document }) => {
+      if (document._sys.filename === "article-home") {
+        return `/`;
+      } else if (document._sys.filename.split("-")[0] === "article") {
+        return `/posts/${document._sys.filename}`;
+      }
+      return undefined;
     },
   },
 };
