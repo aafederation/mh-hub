@@ -15,7 +15,7 @@ export const config = defineConfig({
   media: {
     tina: {
       publicFolder: "public",
-      mediaRoot: "images",
+      mediaRoot: "img",
     },
   },
   build: {
