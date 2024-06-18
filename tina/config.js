@@ -1,5 +1,6 @@
 import { defineConfig } from "tinacms";
 import post from "./collections/post";
+import page from "./collections/page";
 
 const branch =
   process.env.GITHUB_BRANCH ||
@@ -22,7 +23,7 @@ export const config = defineConfig({
     outputFolder: "admin", // within the public folder
   },
   schema: {
-    collections: [post],
+    collections: [post, page],
   },
 });
 

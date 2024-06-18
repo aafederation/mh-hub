@@ -88,9 +88,7 @@ export default {
       },
     },
     router: ({ document }) => {
-      if (document._sys.filename === "article-home") {
-        return `/`;
-      } else if (document._sys.filename.split("-")[0] === "article") {
+      if (document._sys.filename.split("-")[0] === "article") {
         return `/posts/${document._sys.filename}`;
       }
       return undefined;
