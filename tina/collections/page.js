@@ -33,7 +33,10 @@ export default {
       list: true,
       ui: {
         itemProps: (item) => {
-          return { label: item.category };
+          return {
+            label: postCategory.find((cat) => cat.value === item.category)
+              .label,
+          };
         },
       },
       fields: [
