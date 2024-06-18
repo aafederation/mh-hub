@@ -22,7 +22,7 @@ export default function Home({ result }) {
         className="wrapper gap-top-1000 gap-bottom-1000"
         data-variant="no-padding"
       >
-        <MainBody />
+        <MainBody homeData={data.page} />
       </div>
       <div className="[  index-blurb flow ] [ pad-top-900 pad-right-500 pad-bottom-900 pad-left-500 bg-canvas ]">
         <p className="text-500 weight-bold ta-center">
