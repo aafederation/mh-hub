@@ -34,8 +34,9 @@ export default {
       ui: {
         itemProps: (item) => {
           return {
-            label: postCategory.find((cat) => cat.value === item.category)
-              .label,
+            label: item?.category
+              ? postCategory.find((cat) => cat.value === item.category).label
+              : "Pick a resource",
           };
         },
       },
