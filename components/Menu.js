@@ -3,7 +3,10 @@ export const Menu = () => {
     <>
       <div className="display-grid js no-touch cssanimations csstransitions">
         <div className="nav-grid-logo">
-          <header className="pad-top-500 pad-bottom-500 wrapper split-pair text-500 weight-light">
+          <header
+            className="pad-top-500 pad-bottom-500 wrapper split-pair text-500 weight-light"
+            data-variant="max-width"
+          >
             <div>
               <a href="https://www.aafederation.org" target="_blank">
                 <img

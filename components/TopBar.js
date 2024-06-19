@@ -1,7 +1,10 @@
 export const TopBar = () => {
   return (
     <div className="bg-primary pad-top-300 pad-bottom-300">
-      <div className="wrapper split-pair text-500 weight-light">
+      <div
+        className="wrapper split-pair text-500 weight-light"
+        data-variant="max-width"
+      >
         <div>
           <p className="color-white">
             Empowering New York’s Asian American Community Since 1989
