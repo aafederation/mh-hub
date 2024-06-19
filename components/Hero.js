@@ -2,14 +2,17 @@ import { tinaField } from "tinacms/dist/react";
 
 export const Hero = ({ homeData }) => {
   return (
-    <article
-      className="[ bg-img-vector ] [ nav-grid-hero ]"
-      data-tina-field={tinaField(homeData, "image")}
-      style={{ backgroundImage: `url(${homeData.image})` }}
-    >
-      <div className="[ center-text-section ] [ flow wrapper ] [ overlay ] ">
+    <div className="display-grid">
+      <article
+        className="[ bg-img-vector display-grid-row-1-20 ]"
+        data-tina-field={tinaField(homeData, "image")}
+        style={{ backgroundImage: `url(${homeData.image})` }}
+      >
+        <div className="overlay"></div>
+      </article>
+      <div className="display-grid-row-10-11 text-align-center pad-left-500 pad-right-500">
         <div
-          className="text-800 font-serif weight-black color-white text-transform-uppercase"
+          className="text-600 md:text-800 font-serif weight-black color-white text-transform-uppercase"
           data-tina-field={tinaField(homeData, "heading")}
         >
           {homeData.heading}
@@ -21,6 +24,6 @@ export const Hero = ({ homeData }) => {
           {homeData.subHeading}
         </div>
       </div>
-    </article>
+    </div>
   );
 };
