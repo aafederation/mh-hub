@@ -77,13 +77,10 @@ export default {
       options: postTags,
     },
     {
-      type: "string",
+      type: "rich-text",
       label: "Blog Post Body",
       name: "body",
       isBody: true,
-      ui: {
-        component: "textarea",
-      },
     },
   ],
   ui: {
