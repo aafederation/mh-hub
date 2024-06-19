@@ -28,13 +28,27 @@ export const ResourceItemCard = ({ resource }) => {
           </div>
         </div>
         <span className="date" data-tina-field={tinaField(resource, "date")}>
-          {resource?.date}
+          {new Date(resource?.date).toLocaleDateString("en-us", {
+            day: "2-digit",
+            month: "short",
+            year: "numeric",
+          })}
         </span>
         <h3
-          className="pad-top-300"
+          className="pad-top-300 text-transform-capitalize"
           data-tina-field={tinaField(resource, "title")}
         >
-          {resource?.title}
+          {resource.type === "link" ? (
+            <a
+              href={resource?.linkUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {resource?.title}
+            </a>
+          ) : (
+            <a href={`/post/${resource._sys.filename}`}>{resource?.title}</a>
+          )}
         </h3>
         <span
           className="tag pad-top-300"
