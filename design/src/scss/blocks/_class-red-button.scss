@@ -1,6 +1,6 @@
 @mixin button-basics {
   display: inline-block;
-  font: inherit;
+  font-family: "Decalo-bold";
   font-size: get-size("400");
   line-height: 1;
   text-decoration: none;
@@ -10,7 +10,7 @@
 }
 .classic-red-button {
   @include button-basics;
-  text-align: left;
+  text-align: center;
   padding: var(--button-padding, 0.5rem 1rem 0.5rem 1rem);
   color: get-color("white");
   border: $stroke-width solid get-color("primary");
