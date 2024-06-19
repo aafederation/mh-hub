@@ -1,127 +1,17 @@
 import { LandingCategory } from "./LandingCategory";
 import { ResourceCard } from "./ResourceCard";
-import { tinaField } from "tinacms/dist/react";
+import postCategory from "@/tina/collections/postCategory";
 
-const resources = [
-  {
-    resources: {
-      title: "Client resources",
-      items: [
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-      ],
-    },
-  },
-  {
-    resources: {
-      title: "Strategies to talk to my client",
-      items: [
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-      ],
-    },
-  },
-  {
-    resources: {
-      title: "Learn about New York's Asian community",
-      items: [
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-        {
-          type: "resources",
-          date: "may 16, 2024",
-          title: "Mental Health Directory",
-          tags: ["Resources"],
-          summary:
-            "description a volutpat vulputate sem mauris consectetur erat at tellus.",
-        },
-      ],
-    },
-  },
-];
-export const MainBody = ({ homeData }) => {
+export const MainBody = ({ homeData, posts }) => {
+  const postsByCategory = posts.reduce((accumulator, currentValue) => {
+    const currentCat = currentValue.node.category;
+    if (!accumulator[currentCat]) {
+      accumulator[currentCat] = [];
+    }
+    accumulator[currentCat].push(currentValue);
+    return accumulator;
+  }, {});
+
   return (
     <>
       <div className="mhd-tiles">
@@ -130,9 +20,18 @@ export const MainBody = ({ homeData }) => {
         ))}
       </div>
 
-      {resources.map((resource, i) => (
-        <LandingCategory categoryDetails={resource.resources} key={i} />
-      ))}
+      {postCategory.map((category, i) => {
+        if (postsByCategory[category.value])
+          return (
+            <LandingCategory
+              categoryDetails={{
+                title: category.display,
+                items: postsByCategory[category.value],
+              }}
+              key={i}
+            />
+          );
+      })}
     </>
   );
 };

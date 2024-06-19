@@ -8,7 +8,7 @@ export const LandingCategory = ({ categoryDetails }) => {
       </h2>
       <div className="mhd-tiles">
         {categoryDetails.items.map((resource, i) => (
-          <ResourceItemCard resource={resource} key={i} />
+          <ResourceItemCard resource={resource.node} key={i} />
         ))}
       </div>
     </>
