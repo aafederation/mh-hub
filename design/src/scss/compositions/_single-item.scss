@@ -1,11 +1,19 @@
 /* Custom Css for resource-item*/
-
+@mixin date {
+  font-style: italic;
+  font-size: 14px;
+  color: get-color("dark-grey");
+}
+.single-post {
+  .date {
+    @include date;
+    text-transform: capitalize;
+  }
+}
 .card-resource-item {
   .date {
+    @include date;
     text-transform: uppercase;
-    font-style: italic;
-    font-size: 14px;
-    color: get-color("dark-grey");
   }
   .tag {
     font-size: 16px;

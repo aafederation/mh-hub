@@ -63,10 +63,6 @@ a {
   color: currentColor;
 }
 
-p {
-  max-width: 70ch;
-}
-
 svg {
   width: 1em;
   height: 1em;
@@ -144,7 +140,7 @@ a:hover {
 @import "compositions/flex-gap";
 @import "compositions/card-flex";
 @import "compositions/card-resource";
-@import "compositions/card-resource-item";
+@import "compositions/single-item";
 @import "compositions/index-blurb";
 @import "compositions/dropdown-nav";
 @import "compositions/display-grid";
