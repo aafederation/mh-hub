@@ -47,7 +47,7 @@ export const ResourceItemCard = ({ resource }) => {
         className="tag pad-top-300"
         data-tina-field={tinaField(resource, "tags")}
       >
-        Tag: {resource?.tags?.join(", ")}
+        Tags: {resource?.tags?.join(", ")}
       </span>
       <p
         className="pad-top-300"
