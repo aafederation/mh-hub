@@ -17,6 +17,14 @@ export default {
   fields: [
     { type: "boolean", label: "Draft", name: "draft" },
     { type: "string", label: "Title", name: "title", required: true },
+    {
+      type: "string",
+      label: "Summary",
+      name: "summary",
+      ui: {
+        component: "textarea",
+      },
+    },
     { type: "datetime", label: "Date", name: "date", required: true },
     {
       type: "string",
