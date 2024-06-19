@@ -49,7 +49,7 @@ export default {
     },
     {
       type: "string",
-      label: "Link url (for Type: Link posts)",
+      label: "Link url (for Type: Link)",
       name: "linkUrl",
       ui: {
         parse(value) {
@@ -90,14 +90,14 @@ export default {
     filename: {
       readonly: true,
       slugify: (values) => {
-        return `${values?.type || "type"}-${values?.title
+        return `${values.type === "link" ? "link-" : ""}${values?.title
           ?.toLowerCase()
           .replace(/ /g, "-")}`;
       },
     },
     router: ({ document }) => {
-      if (document._sys.filename.split("-")[0] === "article") {
-        return `/posts/${document._sys.filename}`;
+      if (document._sys.filename.split("-")[0] !== "link") {
+        return `/post/${document._sys.filename}`;
       }
       return undefined;
     },

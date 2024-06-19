@@ -28,7 +28,8 @@ export const MainBody = ({ homeData, posts }) => {
                 title: category.display,
                 items: postsByCategory[category.value],
               }}
-              key={i}
+              key={category.value}
+              anchor={category.value}
             />
           );
       })}
