@@ -11,7 +11,6 @@ import { useTina } from "tinacms/dist/react";
 export default function Post({ blogPost, homePost }) {
   const { data: postData } = useTina(blogPost);
   const { data: homeData } = useTina(homePost);
-  console.log("post data is", postData);
   return (
     <Layout>
       <PostHero homeData={homeData.page} postData={postData.post} />
