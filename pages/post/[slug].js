@@ -1,5 +1,6 @@
 import { Layout } from "@/components/Layout";
-// import SinglePost from "@/components/SinglePost";
+import { PostHero } from "@/components/PostHero";
+import { SinglePost } from "@/components/SinglePost";
 // import { getAllContentIds } from "@/lib/getData";
 // import { getDefaultContentType } from "@/lib/utilities";
 import client from "@/tina/__generated__/client";
@@ -8,9 +9,15 @@ import { useTina } from "tinacms/dist/react";
 // const contentType = getDefaultContentType();
 
 export default function Post({ blogPost, homePost }) {
-  const { data } = useTina(blogPost);
+  const { data: postData } = useTina(blogPost);
   const { data: homeData } = useTina(homePost);
-  return <Layout>hello</Layout>;
+  console.log("post data is", postData);
+  return (
+    <Layout>
+      <PostHero homeData={homeData.page} postData={postData.post} />
+      <SinglePost postData={postData.post} />
+    </Layout>
+  );
 }
 
 export async function getStaticPaths() {
