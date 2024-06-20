@@ -69,5 +69,20 @@ export default {
         { type: "string", label: "Label", name: "label", required: true },
       ],
     },
+    {
+      type: "object",
+      label: "Resource types",
+      name: "resourceTypes",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: item.label };
+        },
+      },
+      fields: [
+        { type: "string", label: "Code", name: "value", required: true },
+        { type: "string", label: "Label", name: "label", required: true },
+      ],
+    },
   ],
 };

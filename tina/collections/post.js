@@ -2,7 +2,6 @@
  * @type {import('tinacms').Collection}
  */
 import postType from "./postType";
-import postResourceType from "./postResourceType";
 import globalValues from "../../content/globals/global-values.json";
 
 export default {
@@ -39,7 +38,7 @@ export default {
       type: "string",
       label: "Type of resource",
       name: "typeOfResource",
-      options: postResourceType,
+      options: globalValues.resourceTypes,
       required: true,
     },
     {
