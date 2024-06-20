@@ -7,7 +7,13 @@ export const SinglePost = ({ postData }) => {
   return (
     <div className="wrapper single-post gap-bottom-1000">
       <div className="pad-top-500 pad-bottom-500">
-        Home / Strategies to talk to my client / How to Support Your Child
+        <span className="color-dark-grey">
+          <a className="link-no-decoration" href="/">
+            Home
+          </a>{" "}
+          / Strategies to talk to my client
+        </span>{" "}
+        / {postData.title}
       </div>
       <span className="date">
         <span data-tina-field={tinaField(postData, "date")}>
