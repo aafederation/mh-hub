@@ -6,7 +6,7 @@ export default {
   label: "Global configurations",
   name: "globalConfigurations",
   path: "content/globals",
-  format: "md",
+  format: "json",
   ui: {
     allowedActions: {
       create: false,
@@ -33,8 +33,8 @@ export default {
         },
       },
       fields: [
-        { type: "string", label: "Code", name: "code", required: true },
-        { type: "string", label: "Label", name: "label", required: true },
+        { type: "string", label: "Code", name: "value", required: true },
+        { type: "string", label: "Display", name: "label", required: true },
       ],
     },
   ],
