@@ -16,7 +16,13 @@ export default {
   },
   fields: [
     { type: "boolean", label: "Draft", name: "draft" },
-    { type: "string", label: "Title", name: "title", required: true },
+    {
+      type: "string",
+      label: "Title",
+      name: "title",
+      isTitle: true,
+      required: true,
+    },
     {
       type: "string",
       label: "Summary",
@@ -75,6 +81,23 @@ export default {
       name: "tags",
       list: true,
       options: postTags,
+    },
+    {
+      type: "object",
+      name: "relatedResources",
+      label: "Related resources",
+      list: true,
+      ui: {
+        itemProps: (item) => ({ label: item.post }),
+      },
+      fields: [
+        {
+          type: "reference",
+          label: "Post",
+          name: "post",
+          collections: ["post"],
+        },
+      ],
     },
     {
       type: "rich-text",
