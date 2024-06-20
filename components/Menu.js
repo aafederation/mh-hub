@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export const Menu = () => {
+  const [menuState, setMenuState] = useState("");
   return (
     <>
       <div className="display-grid js no-touch cssanimations csstransitions">
@@ -26,12 +29,17 @@ export const Menu = () => {
                 </li>
                 <li id="go-home">
                   <a href="/" className="link-pointer" data-variant="invert">
-                    Mental Health Directory
+                    All Resources
                   </a>
                 </li>
                 <li>
-                  <a href="" className="link-pointer">
-                    All Resources
+                  <a
+                    href="https://mhd.aafederation.org"
+                    className="link-pointer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Mental Health Directory
                   </a>
                 </li>
                 <li>
@@ -56,27 +64,33 @@ export const Menu = () => {
               <button
                 id="dl-menu-button"
                 className="dl-trigger display-block right-align margin-top-005rem bg-secondary"
+                onClick={() =>
+                  setMenuState(menuState === "" ? "dl-menuopen" : "")
+                }
               >
                 Open Menu
               </button>
-              <ul id="dl-menu-options" className="dl-menu bg-secondary">
+              <ul
+                id="dl-menu-options"
+                className={`dl-menu bg-secondary ${menuState}`}
+              >
                 <li className="display-none-important" id="go-back-hamburger">
                   <a>❮ Back To Search Results</a>
                 </li>
                 <li id="go-home-hamburger">
-                  <a href="/">Directory Home</a>
+                  <a href="/">All Resources</a>
                 </li>
                 <li>
                   <a
-                    href="https://forms.gle/BKeJSPd3vBY37GCr8"
+                    href="https://mhd.aafederation.org"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Join the Directory
+                    Mental Health Directory
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:MH.Directory@aafederation.org">Contact Us</a>
+                  <a href="mailto:programs@aafederation.org">Contact Us</a>
                 </li>
               </ul>
             </nav>
