@@ -7,7 +7,7 @@ category: resourcesForClients
 typeOfResource: resource
 type: link
 linkUrl: 'https://mhd.aafederation.org'
-image: /img//blank.svg
+image: /
 tags:
   - seniors
   - youth
