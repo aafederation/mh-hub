@@ -5,6 +5,7 @@ import postType from "./postType";
 import postCategory from "./postCategory";
 import postResourceType from "./postResourceType";
 import postTags from "./postTags";
+import globalValues from "../../content/globals/global-values.json";
 
 export default {
   label: "Posts",
@@ -27,9 +28,6 @@ export default {
       type: "string",
       label: "Summary",
       name: "summary",
-      ui: {
-        component: "textarea",
-      },
     },
     { type: "datetime", label: "Date", name: "date", required: true },
     {
@@ -48,14 +46,14 @@ export default {
     },
     {
       type: "string",
-      label: "Type",
+      label: "Post type",
       name: "type",
       options: postType,
       required: true,
     },
     {
       type: "string",
-      label: "Link url (for Type: Link)",
+      label: "Link url (for Post type: Link)",
       name: "linkUrl",
       ui: {
         parse(value) {
@@ -81,6 +79,30 @@ export default {
       name: "tags",
       list: true,
       options: postTags,
+    },
+    {
+      type: "object",
+      label: "Downloadable resource",
+      name: "download",
+      list: true,
+      ui: {
+        itemProps: (item) => ({ label: item.language }),
+      },
+      fields: [
+        {
+          type: "string",
+          label: "Language",
+          name: "language",
+          options: globalValues.languages,
+          required: true,
+        },
+        {
+          type: "image",
+          label: "PDF file",
+          name: "pdf",
+          required: true,
+        },
+      ],
     },
     {
       type: "object",
