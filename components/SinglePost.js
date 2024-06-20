@@ -29,7 +29,7 @@ export const SinglePost = ({ postData }) => {
           })}
         </span>{" "}
         |{" "}
-        <span data-tina-field={tinaField(postData, "tags")}>
+        <span data-tina-field={tinaField(postData)}>
           {postData?.tags?.join(", ")}
         </span>
       </span>
@@ -50,7 +50,10 @@ export const SinglePost = ({ postData }) => {
         />
       </div>
       {postData.downloads && (
-        <div className="pad-top-800 pad-bottom-800">
+        <div
+          className="pad-top-800 pad-bottom-800"
+          data-tina-field={tinaField(postData)}
+        >
           <DownloadPDF downloads={postData.downloads} />
         </div>
       )}

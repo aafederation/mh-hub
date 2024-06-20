@@ -7,13 +7,14 @@ export const DownloadPDF = ({ downloads }) => {
 
   return (
     <>
-      <h3 className="pad-bottom-700" data-tina-field={tinaField(downloads)}>
+      <h3 className="pad-bottom-700">
         Download in{" "}
         {downloads.map((download) => (
           <span key={download.language}>
             &nbsp;&nbsp;&nbsp;
             <a
               className="link-pointer-gold"
+              data-tina-field={tinaField(download)}
               onClick={() => setPdfToShow(download.pdf)}
             >
               {
