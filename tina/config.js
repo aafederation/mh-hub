@@ -1,6 +1,7 @@
 import { defineConfig } from "tinacms";
-import page from "./collections/page";
 import post from "./collections/post";
+import page from "./collections/page";
+import globalConfigurations from "./collections/globalConfigurations";
 
 const branch =
   process.env.GITHUB_BRANCH ||
@@ -15,7 +16,7 @@ export const config = defineConfig({
   media: {
     tina: {
       publicFolder: "public",
-      mediaRoot: "images",
+      mediaRoot: "img",
     },
   },
   build: {
@@ -23,7 +24,7 @@ export const config = defineConfig({
     outputFolder: "admin", // within the public folder
   },
   schema: {
-    collections: [page, post],
+    collections: [post, page, globalConfigurations],
   },
 });
 

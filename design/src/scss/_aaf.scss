@@ -54,17 +54,28 @@ header {
   }
 }
 // Banner background image
-.bg-img-vector {
-  background-image: url(/img/mhHubHero.jpg);
+@mixin bg-img-basics {
   background-size: cover;
-  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+}
+
+.bg-img-vector {
+  @include bg-img-basics;
+  background-image: url(/img/mhHubHero.jpg);
+  background-position: 50% 15%;
   height: 260px;
   @include media-query("sm") {
     height: 520px;
+  }
+}
+.bg-post-img-vector {
+  @include bg-img-basics;
+  background-position: 50% 10%;
+  height: 220px;
+  @include media-query("sm") {
+    height: 290px;
   }
 }
 // Footer image
