@@ -82,8 +82,8 @@ export default {
     },
     {
       type: "object",
-      label: "Downloadable resource",
-      name: "download",
+      label: "Downloadable resources",
+      name: "downloads",
       list: true,
       ui: {
         itemProps: (item) => ({ label: item.language }),

@@ -1,6 +1,7 @@
 import { tinaField } from "tinacms/dist/react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { ListPosts } from "./ListPosts";
+import { DownloadPDFs } from "./DownloadPDFs";
 
 export const SinglePost = ({ postData }) => {
   return (
@@ -37,6 +38,11 @@ export const SinglePost = ({ postData }) => {
           }}
         />
       </div>
+      {postData.downloads && (
+        <div className="pad-top-1000 pad-bottom-1000">
+          <DownloadPDFs downloads={postData.downloads} />
+        </div>
+      )}
 
       {postData.relatedResources && (
         <ListPosts
