@@ -2,6 +2,7 @@ import { tinaField } from "tinacms/dist/react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { ListPosts } from "./ListPosts";
 import { DownloadPDFs } from "./DownloadPDFs";
+import globalValues from "@/content/globals/global-values.json";
 
 export const SinglePost = ({ postData }) => {
   return (
@@ -11,7 +12,11 @@ export const SinglePost = ({ postData }) => {
           <a className="link-no-decoration" href="/">
             Home
           </a>{" "}
-          / Strategies to talk to my client
+          /{" "}
+          {
+            globalValues.category.find((x) => x.value === postData.category)
+              .display
+          }
         </span>{" "}
         / {postData.title}
       </div>
