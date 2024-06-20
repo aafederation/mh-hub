@@ -7,7 +7,7 @@ category: researchAndPolicy
 typeOfResource: policy
 type: article
 priority: 1
-image: /
+image: /img/
 tags:
   - data
   - policy
@@ -15,6 +15,6 @@ downloads:
   - language: english
     pdf: /img/pdf/How to Support Your Child If They're Being Bullied - Arabic.pdf
 relatedResources:
-  - {}
+  - post: content/post/link-stay-safe-from-hate.md
 ---
 
