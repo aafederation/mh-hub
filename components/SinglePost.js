@@ -38,7 +38,7 @@ export const SinglePost = ({ postData }) => {
 
       {postData.relatedResources && (
         <ListPosts
-          categoryDetails={{
+          postListDetails={{
             title: "Related resources",
             items: postData.relatedResources.map((relatedResources) => ({
               node: relatedResources.post,

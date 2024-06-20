@@ -24,7 +24,7 @@ export const MainBody = ({ homeData, posts }) => {
         if (postsByCategory[category.value])
           return (
             <ListPosts
-              categoryDetails={{
+              postListDetails={{
                 title: category.display,
                 items: postsByCategory[category.value],
               }}
