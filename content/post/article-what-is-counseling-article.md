@@ -6,8 +6,8 @@ date: 2024-05-31T18:15:00.000Z
 category: resourcesForClients
 typeOfResource: worksheet
 type: article
-linkUrl: ""
-image: /img/RubinWorkshop.jpg
+linkUrl: ''
+image: /
 tags:
   - data
   - seniors
@@ -26,6 +26,6 @@ This infographic shares tips on how to communicate with your child so they feel 
 
 Good for:
 
-- Parents who suspect their child is being bullied
-- Counselors to use with their younger patients or share with their younger patient’s parents
-- Distributing printable flyers for events to raise awareness
+* Parents who suspect their child is being bullied
+* Counselors to use with their younger patients or share with their younger patient’s parents
+* Distributing printable flyers for events to raise awareness
