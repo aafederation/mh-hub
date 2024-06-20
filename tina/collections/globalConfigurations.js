@@ -54,5 +54,20 @@ export default {
         { type: "string", label: "Display", name: "display", required: true },
       ],
     },
+    {
+      type: "object",
+      label: "Tags",
+      name: "tags",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: item.label };
+        },
+      },
+      fields: [
+        { type: "string", label: "Code", name: "value", required: true },
+        { type: "string", label: "Label", name: "label", required: true },
+      ],
+    },
   ],
 };

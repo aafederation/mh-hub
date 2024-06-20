@@ -3,7 +3,6 @@
  */
 import postType from "./postType";
 import postResourceType from "./postResourceType";
-import postTags from "./postTags";
 import globalValues from "../../content/globals/global-values.json";
 
 export default {
@@ -77,7 +76,7 @@ export default {
       label: "Tags",
       name: "tags",
       list: true,
-      options: postTags,
+      options: globalValues.tags,
     },
     {
       type: "object",
