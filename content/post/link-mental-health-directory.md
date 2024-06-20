@@ -6,8 +6,8 @@ date: 2024-05-31T18:15:00.000Z
 category: resourcesForClients
 typeOfResource: resource
 type: link
-linkUrl: "https://mhd.aafederation.org"
-image: /img/RubinWorkshop.jpg
+linkUrl: 'https://mhd.aafederation.org'
+image: /
 tags:
   - adults
   - anxiety
@@ -16,3 +16,4 @@ tags:
   - stressManagement
   - bullying
 ---
+
