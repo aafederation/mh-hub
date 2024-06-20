@@ -1,5 +1,5 @@
-import postCategory from "@/tina/collections/postCategory";
 import { tinaField } from "tinacms/dist/react";
+import globalValues from "@/content/globals/global-values.json";
 
 export const ResourceCard = ({ resource }) => {
   return (
@@ -14,7 +14,10 @@ export const ResourceCard = ({ resource }) => {
           className="pad-top-500 text-transform-uppercase"
           data-tina-field={tinaField(resource, "category")}
         >
-          {postCategory.find((cat) => cat.value === resource.category).label}
+          {
+            globalValues.category.find((cat) => cat.value === resource.category)
+              .label
+          }
         </h3>
         <p
           className="pad-top-300"

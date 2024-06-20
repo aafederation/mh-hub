@@ -2,7 +2,6 @@
  * @type {import('tinacms').Collection}
  */
 import postType from "./postType";
-import postCategory from "./postCategory";
 import postResourceType from "./postResourceType";
 import postTags from "./postTags";
 import globalValues from "../../content/globals/global-values.json";
@@ -34,7 +33,7 @@ export default {
       type: "string",
       label: "Category",
       name: "category",
-      options: postCategory,
+      options: globalValues.category,
       required: true,
     },
     {

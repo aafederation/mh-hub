@@ -1,6 +1,6 @@
 import { ListPosts } from "./ListPosts";
 import { ResourceCard } from "./ResourceCard";
-import postCategory from "@/tina/collections/postCategory";
+import globalValues from "@/content/globals/global-values.json";
 
 export const MainBody = ({ homeData, posts }) => {
   const postsByCategory = posts.reduce((accumulator, currentValue) => {
@@ -20,7 +20,7 @@ export const MainBody = ({ homeData, posts }) => {
         ))}
       </div>
 
-      {postCategory.map((category, i) => {
+      {globalValues.category.map((category, i) => {
         if (postsByCategory[category.value])
           return (
             <ListPosts

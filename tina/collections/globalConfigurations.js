@@ -37,5 +37,22 @@ export default {
         { type: "string", label: "Display", name: "label", required: true },
       ],
     },
+    {
+      type: "object",
+      label: "Category",
+      name: "category",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: item.label };
+        },
+      },
+      fields: [
+        { type: "string", label: "Code", name: "value", required: true },
+        { type: "string", label: "Label", name: "label", required: true },
+        { type: "number", label: "Order", name: "order", required: true },
+        { type: "string", label: "Display", name: "display", required: true },
+      ],
+    },
   ],
 };

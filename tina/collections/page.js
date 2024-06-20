@@ -1,7 +1,7 @@
 /**
  * @type {import('tinacms').Collection}
  */
-import postCategory from "./postCategory";
+import globalValues from "../../content/globals/global-values.json";
 
 export default {
   label: "Pages",
@@ -35,7 +35,8 @@ export default {
         itemProps: (item) => {
           return {
             label: item?.category
-              ? postCategory.find((cat) => cat.value === item.category).label
+              ? globalValues.category.find((cat) => cat.value === item.category)
+                  .label
               : "Pick a resource",
           };
         },
@@ -55,7 +56,7 @@ export default {
           type: "string",
           label: "Category",
           name: "category",
-          options: postCategory,
+          options: globalValues.category,
           required: true,
         },
         { type: "string", label: "Description", name: "description" },
