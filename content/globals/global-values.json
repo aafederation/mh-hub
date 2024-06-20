@@ -6,6 +6,10 @@
       "label": "Arabic"
     },
     {
+      "value": "bangla",
+      "label": "Bangla"
+    },
+    {
       "value": "english",
       "label": "English"
     },

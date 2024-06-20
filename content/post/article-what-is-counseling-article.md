@@ -14,9 +14,15 @@ tags:
   - youth
 downloads:
   - language: arabic
-    pdf: /img/pdf/How to Support Your Child If They're Being Bullied - Arabic.pdf
+    pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Arabic.pdf
+  - language: bangla
+    pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Bangla.pdf
   - language: chinese
-    pdf: /img/pdf/How to Support Your Child If They're Being Bullied - Chinese.pdf
+    pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Chinese.pdf
+  - language: english
+    pdf: >-
+      /img/pdf/How to Support Your Child If They_re Being Bullied - All
+      Languages.pdf
 relatedResources:
   - post: content/post/link-mental-health-directory.md
   - post: content/post/link-stay-safe-from-hate.md
