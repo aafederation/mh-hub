@@ -35,8 +35,9 @@ export default {
         itemProps: (item) => {
           return {
             label: item?.category
-              ? globalValues.category.find((cat) => cat.value === item.category)
-                  .label
+              ? globalValues.categories.find(
+                  (cat) => cat.value === item.category
+                ).label
               : "Pick a resource",
           };
         },
@@ -56,7 +57,7 @@ export default {
           type: "string",
           label: "Category",
           name: "category",
-          options: globalValues.category,
+          options: globalValues.categories,
           required: true,
         },
         { type: "string", label: "Description", name: "description" },

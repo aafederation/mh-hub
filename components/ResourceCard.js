@@ -15,8 +15,9 @@ export const ResourceCard = ({ resource }) => {
           data-tina-field={tinaField(resource, "category")}
         >
           {
-            globalValues.category.find((cat) => cat.value === resource.category)
-              .label
+            globalValues.categories.find(
+              (cat) => cat.value === resource.category
+            ).label
           }
         </h3>
         <p

@@ -33,7 +33,7 @@ export default {
       type: "string",
       label: "Category",
       name: "category",
-      options: globalValues.category,
+      options: globalValues.categories,
       required: true,
     },
     {

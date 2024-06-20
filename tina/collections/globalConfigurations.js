@@ -39,8 +39,8 @@ export default {
     },
     {
       type: "object",
-      label: "Category",
-      name: "category",
+      label: "Categories",
+      name: "categories",
       list: true,
       ui: {
         itemProps: (item) => {

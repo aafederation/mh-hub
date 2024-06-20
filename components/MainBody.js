@@ -20,7 +20,7 @@ export const MainBody = ({ homeData, posts }) => {
         ))}
       </div>
 
-      {globalValues.category.map((category, i) => {
+      {globalValues.categories.map((category, i) => {
         if (postsByCategory[category.value])
           return (
             <ListPosts

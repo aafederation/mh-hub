@@ -14,7 +14,7 @@ export const SinglePost = ({ postData }) => {
           </a>{" "}
           /{" "}
           {
-            globalValues.category.find((x) => x.value === postData.category)
+            globalValues.categories.find((x) => x.value === postData.category)
               .display
           }
         </span>{" "}
