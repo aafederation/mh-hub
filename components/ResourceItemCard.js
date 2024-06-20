@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { tinaField } from "tinacms/dist/react";
+import globalValues from "@/content/globals/global-values.json";
 
 export const ResourceItemCard = ({ resource }) => {
   return (
@@ -47,7 +48,13 @@ export const ResourceItemCard = ({ resource }) => {
         className="tag pad-top-300"
         data-tina-field={tinaField(resource, "tags")}
       >
-        Tags: {resource?.tags?.join(", ")}
+        Tags:{" "}
+        {resource?.tags
+          ?.map(
+            (tagValue) =>
+              globalValues.tags.find((tag) => tag.value === tagValue).label
+          )
+          .join(", ")}
       </span>
       <p
         className="pad-top-300"
