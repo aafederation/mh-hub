@@ -1,4 +1,4 @@
-import { LandingCategory } from "./LandingCategory";
+import { ListPosts } from "./ListPosts";
 import { ResourceCard } from "./ResourceCard";
 import postCategory from "@/tina/collections/postCategory";
 
@@ -23,7 +23,7 @@ export const MainBody = ({ homeData, posts }) => {
       {postCategory.map((category, i) => {
         if (postsByCategory[category.value])
           return (
-            <LandingCategory
+            <ListPosts
               categoryDetails={{
                 title: category.display,
                 items: postsByCategory[category.value],

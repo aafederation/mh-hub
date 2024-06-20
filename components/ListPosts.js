@@ -1,6 +1,6 @@
 import { ResourceItemCard } from "./ResourceItemCard";
 
-export const LandingCategory = ({ categoryDetails, anchor }) => {
+export const ListPosts = ({ categoryDetails, anchor }) => {
   return (
     <div className="pad-top-1000 pad-bottom-700">
       <h2 className="pad-left-500 text-transform-uppercase" id={anchor}>
