@@ -9,7 +9,8 @@ export const ResourceItemCard = ({ resource }) => {
         data-tina-field={tinaField(resource, "image")}
       >
         <img
-          src={resource?.image?.length > 1 ? resource.image : "/img/blank.svg"}
+          // src={resource?.image?.length > 1 ? resource.image : "/img/blank.svg"}
+          src={"/img/blank.svg"}
           alt="our_team"
           width={300}
           height={300}
