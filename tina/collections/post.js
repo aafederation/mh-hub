@@ -45,7 +45,7 @@ export default {
       type: "string",
       label: "Post type",
       name: "type",
-      options: postType,
+      options: globalValues.postTypes,
       required: true,
     },
     {
