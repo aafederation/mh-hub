@@ -39,7 +39,7 @@ export const SinglePost = ({ postData }) => {
         />
       </div>
       {postData.downloads && (
-        <div className="pad-top-1000 pad-bottom-1000">
+        <div className="pad-top-800 pad-bottom-800">
           <DownloadPDFs downloads={postData.downloads} />
         </div>
       )}

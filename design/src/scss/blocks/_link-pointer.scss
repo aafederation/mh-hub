@@ -54,3 +54,15 @@
   font-style: italic;
   padding-left: 9.36px;
 }
+.link-pointer-gold {
+  color: var(--Gold);
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  &:hover {
+    background: get-color("powder");
+    color: get-color("primary");
+    text-decoration: none;
+  }
+}
