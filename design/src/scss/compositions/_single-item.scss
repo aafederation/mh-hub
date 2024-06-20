@@ -11,6 +11,7 @@
   }
 }
 .card-resource-item {
+  width: 100%;
   .date {
     @include date;
     text-transform: uppercase;
