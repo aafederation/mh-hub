@@ -2,7 +2,7 @@ import { tinaField } from "tinacms/dist/react";
 import { useState } from "react";
 import globalValues from "@/content/globals/global-values.json";
 
-export const DownloadPDFs = ({ downloads }) => {
+export const DownloadPDF = ({ downloads }) => {
   const [pdfToShow, setPdfToShow] = useState(downloads[0].pdf);
 
   return (
