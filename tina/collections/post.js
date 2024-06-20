@@ -1,7 +1,6 @@
 /**
  * @type {import('tinacms').Collection}
  */
-import postType from "./postType";
 import globalValues from "../../content/globals/global-values.json";
 
 export default {
