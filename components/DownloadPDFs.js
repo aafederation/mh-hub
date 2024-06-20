@@ -26,7 +26,8 @@ export const DownloadPDFs = ({ downloads }) => {
         ))}
       </h3>
       <iframe
-        src={pdfToShow + "#view=fit"}
+        title="Inline Frame Example"
+        src={pdfToShow + "#view=fit&navpanes=0"}
         style={{ width: "100%", height: "100vh" }}
       />
     </>
