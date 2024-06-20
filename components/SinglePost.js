@@ -1,5 +1,6 @@
 import { tinaField } from "tinacms/dist/react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
+import { LandingCategory } from "./LandingCategory";
 
 export const SinglePost = ({ postData }) => {
   return (
@@ -34,6 +35,18 @@ export const SinglePost = ({ postData }) => {
           ),
         }}
       />
+
+      {postData.relatedResources && (
+        <LandingCategory
+          categoryDetails={{
+            title: "Related resources",
+            items: postData.relatedResources.map((relatedResources) => ({
+              node: relatedResources.post,
+            })),
+          }}
+          anchor="#related-resources"
+        />
+      )}
     </div>
   );
 };
