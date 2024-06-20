@@ -7,8 +7,8 @@ export const ListPosts = ({ postListDetails, anchor }) => {
         {postListDetails.title}
       </h2>
       <div className="display-grid grid-3up justify-items-center align-items-start">
-        {postListDetails.items.map((resource, i) => (
-          <ResourceItemCard resource={resource.node} key={i} />
+        {postListDetails.items.map((item, i) => (
+          <ResourceItemCard resource={item} key={i} />
         ))}
       </div>
     </div>

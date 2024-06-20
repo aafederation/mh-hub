@@ -40,9 +40,9 @@ export const SinglePost = ({ postData }) => {
         <ListPosts
           postListDetails={{
             title: "Related resources",
-            items: postData.relatedResources.map((relatedResources) => ({
-              node: relatedResources.post,
-            })),
+            items: postData.relatedResources.map(
+              (relatedResources) => relatedResources.post
+            ),
           }}
           anchor="#related-resources"
         />

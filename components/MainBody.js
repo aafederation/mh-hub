@@ -26,7 +26,7 @@ export const MainBody = ({ homeData, posts }) => {
             <ListPosts
               postListDetails={{
                 title: category.display,
-                items: postsByCategory[category.value],
+                items: postsByCategory[category.value].map((post) => post.node),
               }}
               key={category.value}
               anchor={category.value}
