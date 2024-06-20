@@ -27,14 +27,16 @@ export const SinglePost = ({ postData }) => {
       >
         {postData?.title}
       </h2>
-      <TinaMarkdown
-        content={postData.body}
-        components={{
-          a: (props) => (
-            <a rel="nofollow" target="_blank" {...props} href={props.url} />
-          ),
-        }}
-      />
+      <div data-tina-field={tinaField(postData, "body")}>
+        <TinaMarkdown
+          content={postData.body}
+          components={{
+            a: (props) => (
+              <a rel="nofollow" target="_blank" {...props} href={props.url} />
+            ),
+          }}
+        />
+      </div>
 
       {postData.relatedResources && (
         <ListPosts
