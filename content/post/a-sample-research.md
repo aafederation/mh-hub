@@ -7,7 +7,7 @@ category: researchAndPolicy
 typeOfResource: policy
 type: article
 priority: 1
-image: /img//RubinWorkshop.jpg
+image: /
 tags:
   - data
   - policy
