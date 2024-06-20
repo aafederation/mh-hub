@@ -20,11 +20,6 @@ export default {
       type: "image",
       name: "image",
       label: "image",
-      ui: {
-        parse(value) {
-          return value.startsWith("/") ? value : `/${value}`;
-        },
-      },
     },
     {
       name: "resources",
@@ -47,11 +42,6 @@ export default {
           type: "image",
           name: "icon",
           label: "Icon",
-          ui: {
-            parse(value) {
-              return value.startsWith("/") ? value : `/${value}`;
-            },
-          },
         },
         {
           type: "string",

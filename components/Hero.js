@@ -6,7 +6,7 @@ export const Hero = ({ homeData }) => {
       <article
         className="[ bg-img-vector display-grid-row-1-20 ]"
         data-tina-field={tinaField(homeData, "image")}
-        style={{ backgroundImage: `url(${homeData.image})` }}
+        style={{ backgroundImage: `url(${encodeURI(homeData.image)})` }}
       >
         <div className="overlay"></div>
       </article>

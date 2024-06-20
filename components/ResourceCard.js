@@ -6,7 +6,7 @@ export const ResourceCard = ({ resource }) => {
     <>
       <section className="card-resource [ pad-top-500 pad-bottom-500 pad-left-600 pad-right-600 ]">
         <img
-          src={resource.icon}
+          src={encodeURI(resource.icon)}
           alt="icon"
           data-tina-field={tinaField(resource, "icon")}
         />

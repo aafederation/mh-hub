@@ -7,7 +7,7 @@ category: resourcesForClients
 typeOfResource: resource
 type: link
 linkUrl: 'https://mhd.aafederation.org'
-image: /
+image: /img/RubinWorkshop.jpg
 tags:
   - adults
   - anxiety

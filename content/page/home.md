@@ -4,7 +4,7 @@ heading: Asian Mental Health Hub
 subHeading: >-
   Helping mental health providers bring culturally-competent care to Asian
   Americans
-image: /img/mhHubHero.jpg
+image: /img/Main Banner Image - 240325 AAF_Sunset Park-31 Sheng Lin.jpg
 resources:
   - icon: /img/icon/loving-hands.svg
     category: resourcesForClients

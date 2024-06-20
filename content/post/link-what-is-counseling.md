@@ -6,10 +6,11 @@ date: 2024-05-31T18:15:00.000Z
 category: resourcesForClients
 typeOfResource: worksheet
 type: article
-linkUrl: "https://mhd.aafederation.org"
-image: /
+linkUrl: 'https://mhd.aafederation.org'
+image: /img/Protecting your Mental Health Thumbnail.png
 tags:
   - data
   - seniors
   - youth
 ---
+

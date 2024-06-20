@@ -7,7 +7,7 @@ category: resourcesForClients
 typeOfResource: worksheet
 type: article
 linkUrl: ''
-image: /
+image: /img/How to Support Your Child If They_re Being Bullied Thumbnail.png
 tags:
   - data
   - seniors

@@ -10,8 +10,8 @@ export const ResourceItemCard = ({ resource }) => {
       >
         <img
           src={
-            resource?.image?.substr(resource.image.length - 1) !== "/"
-              ? resource.image
+            resource?.image !== ""
+              ? encodeURI(resource.image)
               : "/img/blank.svg"
           }
           // src={"/img/blank.svg"}

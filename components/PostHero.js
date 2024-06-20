@@ -8,9 +8,9 @@ export const PostHero = ({ homeData, postData }) => {
         data-tina-field={tinaField(postData, "image")}
         style={{
           backgroundImage: `url(${
-            postData?.image?.substr(postData.image.length - 1) !== "/"
-              ? postData.image
-              : homeData.image
+            postData?.image !== ""
+              ? encodeURI(postData.image)
+              : encodeURI(homeData.image)
           })`,
         }}
       >

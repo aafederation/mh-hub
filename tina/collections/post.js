@@ -62,12 +62,6 @@ export default {
       type: "image",
       name: "image",
       label: "image",
-      ui: {
-        parse(value) {
-          //add leading slash to value if it doesnt exist
-          return value.startsWith("/") ? value : `/${value}`;
-        },
-      },
     },
     {
       type: "string",
