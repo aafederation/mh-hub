@@ -10,7 +10,7 @@ export const DownloadPDFs = ({ downloads }) => {
       <h3 className="pad-bottom-700" data-tina-field={tinaField(downloads)}>
         Download in{" "}
         {downloads.map((download) => (
-          <span>
+          <span key={download.language}>
             &nbsp;&nbsp;&nbsp;
             <a
               className="link-pointer-gold"
