@@ -7,6 +7,12 @@
 .align-items-start {
   align-items: start;
 }
+.column-gap-3rem {
+  column-gap: 3rem;
+}
+.row-gap-2rem {
+  row-gap: 2rem;
+}
 .nav-grid-logo {
   grid-column: 1/2;
   grid-row: 1/2;

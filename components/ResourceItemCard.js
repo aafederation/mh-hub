@@ -3,7 +3,7 @@ import { tinaField } from "tinacms/dist/react";
 
 export const ResourceItemCard = ({ resource }) => {
   return (
-    <section className="card-resource-item [ pad-top-500 pad-bottom-500 pad-left-600 pad-right-600 ]">
+    <section className="card-resource-item">
       <div
         className="member_img display-grid"
         data-tina-field={tinaField(resource, "image")}
