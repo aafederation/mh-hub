@@ -1,14 +1,23 @@
 ---
 draft: true
-title: Stay safe from hate
-summary: Stay safe from hate
-date: 2024-05-31T18:15:00.000Z
+title: 'Protecting Your Mental Health '
+summary: Simple stress management and grounding techniques for daily life.
+date: 2024-06-30T04:00:00.000Z
 category: resourcesForClients
 typeOfResource: exercise
-type: link
-linkUrl: 'https://mhd.aafederation.org'
+type: article
+linkUrl: ''
 image: /img/Family Talk Thumbnail.png
 tags:
-  - policy
+  - stressManagement
+  - adults
+downloads:
+  - {}
 ---
 
+Simple stress management and grounding techniques for daily life.
+
+Good for:
+
+* Individuals who want coping and stress management techniques 
+* Counselors to help clients cope with anxiety and stress
