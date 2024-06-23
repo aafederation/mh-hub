@@ -1,31 +1,12 @@
-import { Layout } from "../components/Layout";
-import { MainBody } from "../components/MainBody";
-import { Hero } from "@/components/Hero";
-import client from "@/tina/__generated__/client";
-import { useTina } from "tinacms/dist/react";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
-export async function getStaticProps() {
-  const result = await client.queries.page({ relativePath: "home.md" });
-  const posts = await client.queries.postConnection();
+export default function Custom404() {
+  const router = useRouter();
 
-  return {
-    props: { result, posts },
-  };
-}
+  useEffect(() => {
+    router.replace("/");
+  });
 
-export default function Home({ result, posts }) {
-  const { data } = useTina(result);
-  const { data: postData } = useTina(posts);
-
-  return (
-    <Layout>
-      <Hero homeData={data.page} />
-      <div
-        className="wrapper gap-top-1000 gap-bottom-1000"
-        data-variant="no-padding"
-      >
-        <MainBody homeData={data.page} posts={postData.postConnection.edges} />
-      </div>
-    </Layout>
-  );
+  return null;
 }
