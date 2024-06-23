@@ -5,7 +5,7 @@ export const ResourceItemCard = ({ resource }) => {
   return (
     <section className="card-resource-item">
       <div
-        className="member_img display-grid"
+        className="member_img display-grid pad-bottom-300"
         data-tina-field={tinaField(resource, "image")}
       >
         <img
