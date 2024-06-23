@@ -6,7 +6,12 @@ export const Footer = () => {
           AAF's Mental Health Hub was made possible with support from
         </p>
         <div className="wrapper" data-variant="narrow">
-          <img src="/img/logo/MotherCabriniLogo.png" />
+          <img
+            src="/img/logo/MotherCabriniLogo.png"
+            style={{
+              maxWidth: "70%",
+            }}
+          />
         </div>
       </div>
       <div className="bg-dark gap-top-300 pad-top-500 pad-bottom-500">
