@@ -84,13 +84,11 @@ export default {
           label: "Language",
           name: "language",
           options: globalValues.languages,
-          required: true,
         },
         {
           type: "image",
           label: "PDF file",
           name: "pdf",
-          required: true,
         },
       ],
     },

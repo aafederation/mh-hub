@@ -49,16 +49,18 @@ export const SinglePost = ({ postData }) => {
           }}
         />
       </div>
-      {postData.downloads && (
-        <div
-          className="pad-top-800 pad-bottom-800"
-          data-tina-field={tinaField(postData)}
-        >
-          <DownloadPDF downloads={postData.downloads} />
-        </div>
-      )}
+      {postData.downloads?.length > 0 &&
+        postData.downloads[0].language &&
+        postData.downloads[0].pdf && (
+          <div
+            className="pad-top-800 pad-bottom-800"
+            data-tina-field={tinaField(postData)}
+          >
+            <DownloadPDF downloads={postData.downloads} />
+          </div>
+        )}
 
-      {postData.relatedResources && (
+      {postData.relatedResources?.length > 0 && (
         <ListPosts
           postListDetails={{
             title: "Related resources",
