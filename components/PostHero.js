@@ -7,11 +7,8 @@ export const PostHero = ({ homeData, postData }) => {
         className="[ bg-post-img-vector display-grid-row-1-20 ]"
         data-tina-field={tinaField(postData, "image")}
         style={{
-          backgroundImage: `url(${
-            postData?.image !== ""
-              ? encodeURI(postData.image)
-              : encodeURI(homeData.image)
-          })`,
+          backgroundImage: `url(${encodeURI(homeData.image)})`,
+          backgroundPosition: "50% 30%",
         }}
       >
         <div className="overlay"></div>
