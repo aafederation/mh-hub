@@ -10,8 +10,6 @@ linkUrl: ''
 image: /img/Protecting your Mental Health Thumbnail.png
 tags:
   - adults
-downloads:
-  - {}
 ---
 
 

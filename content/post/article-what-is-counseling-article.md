@@ -25,7 +25,6 @@ downloads:
       Languages.pdf
 relatedResources:
   - post: content/post/link-mental-health-directory.md
-  - post: content/post/link-stay-safe-from-hate.md
 ---
 
 This infographic shares tips on how to communicate with your child so they feel safe and heard.

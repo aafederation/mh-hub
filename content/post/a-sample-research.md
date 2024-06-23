@@ -14,7 +14,5 @@ tags:
 downloads:
   - language: english
     pdf: /img/pdf/How to Support Your Child If They're Being Bullied - Arabic.pdf
-relatedResources:
-  - post: content/post/link-stay-safe-from-hate.md
 ---
 
