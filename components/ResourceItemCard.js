@@ -36,7 +36,7 @@ export const ResourceItemCard = ({ resource }) => {
           year: "numeric",
         })}
       </span>
-      <h3
+      <h2
         className="pad-top-300 text-transform-capitalize"
         data-tina-field={tinaField(resource, "title")}
       >
@@ -47,7 +47,7 @@ export const ResourceItemCard = ({ resource }) => {
         ) : (
           <a href={`/post/${resource._sys.filename}`}>{resource?.title}</a>
         )}
-      </h3>
+      </h2>
       <span
         className="tag pad-top-300"
         data-tina-field={tinaField(resource, "tags")}
