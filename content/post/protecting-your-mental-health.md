@@ -12,6 +12,8 @@ tags:
   - stressManagement
   - adults
 downloads:
+  - language: bangla
+    pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Bangla.pdf
   - language: arabic
     pdf: /img/pdf/Protecting Your Mental Health - Arabic.pdf
   - language: english
