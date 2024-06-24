@@ -9,9 +9,9 @@ type: article
 linkUrl: ''
 image: /img/How to Support Your Child If They_re Being Bullied Thumbnail.png
 tags:
-  - data
-  - seniors
   - youth
+  - bullying
+  - familyParenting
 downloads:
   - language: korean
     pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Korean.pdf
