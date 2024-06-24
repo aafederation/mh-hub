@@ -18,7 +18,7 @@ tags:
   - adults
 downloads:
   - language: english
-    pdf: /img/pdf/How to Support Your Child If They're Being Bullied - Arabic.pdf
+    pdf: /img/pdf/MH_Report_2017.pdf
 ---
 
 A 2017 report from AAF on barriers to mental healthcare for Asian New Yorkers.
