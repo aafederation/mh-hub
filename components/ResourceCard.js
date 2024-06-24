@@ -10,6 +10,8 @@ export const ResourceCard = ({ resource }) => {
           src={encodeURI(resource.icon)}
           alt="icon"
           data-tina-field={tinaField(resource, "icon")}
+          height={100}
+          width={100}
         />
         <h3
           className="pad-top-500 text-transform-uppercase"

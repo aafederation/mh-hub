@@ -13,6 +13,8 @@ export const Footer = () => {
             style={{
               maxWidth: "70%",
             }}
+            width={420}
+            height={142.188}
           />
         </div>
       </div>
@@ -20,8 +22,8 @@ export const Footer = () => {
         <div className="wrapper footer-tiles">
           <div className="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300">
             <Image
-              width="1"
-              height="1"
+              width={335.906}
+              height={47.578}
               src="/img/logo/AAF-Logo-White.svg"
               className="image gap-left-0 pad-bottom-500"
               alt=""
