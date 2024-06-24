@@ -6,6 +6,7 @@ date: 2024-06-24T04:00:00.000Z
 category: resourcesForProviders
 typeOfResource: worksheet
 type: article
+image: /img/Thumbnail Images/Family Talk.png
 tags:
   - adults
   - familyParenting
