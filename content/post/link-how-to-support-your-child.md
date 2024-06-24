@@ -1,16 +1,29 @@
 ---
 draft: true
-title: How To Support Your Child
-summary: How to support your child if they are being bullied in school
+title: >-
+  Recognizing Signs of Mental Health Distress in  Your Older Adult Relative: A
+  Caregiver’s Guide
+summary: Common signs of mental health issues among seniors.
 date: 2024-05-31T18:15:00.000Z
 category: resourcesForClients
-typeOfResource: resource
-type: link
-linkUrl: 'https://mhd.aafederation.org'
+typeOfResource: worksheet
+type: article
+linkUrl: ''
 image: /img/Mental Health FAQs.png
 tags:
   - seniors
-  - youth
-  - bullying
+  - familyParenting
+  - depression
+  - anxiety
+downloads:
+  - language: english
+    pdf: >-
+      /img/pdf/Recognizing Signs of Mental Health Distress in Your Older Adult
+      Relative A Caregiver’s Guide.pdf
 ---
 
+Common signs of mental health issues among seniors. 
+
+Good for:
+
+* Caregivers who are concerned their parents or grandparents may be dealing with mental distress 
