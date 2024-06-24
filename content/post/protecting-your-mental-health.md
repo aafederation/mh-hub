@@ -2,19 +2,19 @@
 draft: true
 title: 'Protecting Your Mental Health '
 summary: Simple stress management and grounding techniques for daily life.
-date: '2024-06-30T04:00:00.000Z'
+date: 2024-06-30T04:00:00.000Z
 category: resourcesForClients
 typeOfResource: exercise
 type: article
 linkUrl: ''
-image: /img/Family Talk Thumbnail.png
+image: /img/Thumbnail Images/Protecting your Mental Health.png
 tags:
   - stressManagement
   - adults
 downloads:
-  - {}
+  - language: english
+    pdf: /img/pdf/Protecting Your Mental Health - English.pdf
 ---
-
 
 Simple stress management and grounding techniques for daily life.
 
