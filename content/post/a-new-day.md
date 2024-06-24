@@ -11,6 +11,7 @@ tags:
   - data
   - policy
 downloads:
-  - {}
+  - language: english
+    pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - English.pdf
 ---
 
