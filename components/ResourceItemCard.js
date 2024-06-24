@@ -1,5 +1,6 @@
 import { tinaField } from "tinacms/dist/react";
 import globalValues from "@/content/globals/global-values.json";
+import Image from "next/image";
 
 export const ResourceItemCard = ({ resource }) => {
   return (
@@ -8,7 +9,7 @@ export const ResourceItemCard = ({ resource }) => {
         className="member_img display-grid pad-bottom-300"
         data-tina-field={tinaField(resource, "image")}
       >
-        <img
+        <Image
           src={
             resource?.image !== ""
               ? encodeURI(resource.image)

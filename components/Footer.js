@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Footer = () => {
   return (
     <div>
@@ -6,7 +8,7 @@ export const Footer = () => {
           AAF's Mental Health Hub was made possible with support from
         </p>
         <div className="wrapper" data-variant="narrow">
-          <img
+          <Image
             src="/img/logo/MotherCabriniLogo.png"
             style={{
               maxWidth: "70%",
@@ -17,7 +19,7 @@ export const Footer = () => {
       <div className="bg-dark gap-top-300 pad-top-500 pad-bottom-500">
         <div className="wrapper footer-tiles">
           <div className="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300">
-            <img
+            <Image
               width="1"
               height="1"
               src="/img/logo/AAF-Logo-White.svg"

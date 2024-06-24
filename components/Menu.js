@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 
 export const Menu = () => {
   const [menuState, setMenuState] = useState("");
@@ -12,7 +13,7 @@ export const Menu = () => {
           >
             <div>
               <a href="https://www.aafederation.org" target="_blank">
-                <img
+                <Image
                   src="/img/logo/AAF-Logo.svg"
                   alt="logo"
                   className="header-logo"

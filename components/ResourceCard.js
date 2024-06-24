@@ -1,11 +1,12 @@
 import { tinaField } from "tinacms/dist/react";
 import globalValues from "@/content/globals/global-values.json";
+import Image from "next/image";
 
 export const ResourceCard = ({ resource }) => {
   return (
     <>
       <section className="card-resource [ pad-top-500 pad-bottom-500 pad-left-600 pad-right-600 ]">
-        <img
+        <Image
           src={encodeURI(resource.icon)}
           alt="icon"
           data-tina-field={tinaField(resource, "icon")}
