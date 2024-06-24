@@ -7,7 +7,7 @@ category: resourcesForProviders
 typeOfResource: worksheet
 type: article
 linkUrl: ''
-image: /img/RubinWorkshop.jpg
+image: /img/Thumbnail Images/Identifying Depression.png
 tags:
   - adults
   - depression
