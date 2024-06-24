@@ -7,7 +7,7 @@ category: resourcesForProviders
 typeOfResource: worksheet
 type: article
 linkUrl: ''
-image: /img/Protecting your Mental Health Thumbnail.png
+image: /img/Thumbnail Images/Mental Health FAQs.png
 tags:
   - adults
 downloads:
