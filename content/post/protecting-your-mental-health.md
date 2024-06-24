@@ -12,6 +12,8 @@ tags:
   - stressManagement
   - adults
 downloads:
+  - language: korean
+    pdf: /img/pdf/Protecting Your Mental Health - Korean.pdf
   - language: chinese
     pdf: /img/pdf/Protecting Your Mental Health - Chinese.pdf
   - language: bangla
