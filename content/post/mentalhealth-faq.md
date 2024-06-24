@@ -2,7 +2,7 @@
 draft: true
 title: Mental Health FAQs
 summary: Frequently asked questions about mental health and how to get help
-date: '2024-05-31T18:15:00.000Z'
+date: 2024-05-31T18:15:00.000Z
 category: resourcesForProviders
 typeOfResource: worksheet
 type: article
@@ -10,8 +10,10 @@ linkUrl: ''
 image: /img/Protecting your Mental Health Thumbnail.png
 tags:
   - adults
+downloads:
+  - language: english
+    pdf: /img/pdf/Mental Health FAQs.pdf
 ---
-
 
 Frequently asked questions about mental health and how to get help.
 
