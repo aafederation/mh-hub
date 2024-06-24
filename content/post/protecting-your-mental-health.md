@@ -22,6 +22,8 @@ downloads:
     pdf: /img/pdf/Protecting Your Mental Health - Arabic.pdf
   - language: english
     pdf: /img/pdf/Protecting Your Mental Health - English.pdf
+relatedResources:
+  - {}
 ---
 
 Simple stress management and grounding techniques for daily life.
