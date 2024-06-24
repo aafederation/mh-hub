@@ -13,6 +13,8 @@ tags:
   - seniors
   - youth
 downloads:
+  - language: korean
+    pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Korean.pdf
   - language: arabic
     pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Arabic.pdf
   - language: bangla
