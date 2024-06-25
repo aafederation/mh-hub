@@ -9,7 +9,9 @@ category: resourcesForClients
 typeOfResource: worksheet
 type: article
 linkUrl: ''
-image: /img/Mental Health FAQs.png
+image: >-
+  /img/Thumbnail Images/Recognizing Signs of Mental Health Distress in Your
+  Older Adult Relative.png
 tags:
   - seniors
   - familyParenting
