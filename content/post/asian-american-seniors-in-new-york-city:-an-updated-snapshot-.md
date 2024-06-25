@@ -16,6 +16,8 @@ downloads:
     pdf: /img/pdf/Senior_Report_2016.pdf
 relatedResources:
   - post: >-
+      content/post/link-seeking-help,-finding-hope:-mental-health-challenges-and-solutions-for-asian-americans-in-new-york-city.md
+  - post: >-
       content/post/link-toward-better-aging:-a-national-study-of-korean-older-adults.md
   - post: >-
       content/post/alone-and-afraid:-the-outsized-impact-of-covid-19-on-asian-seniors.md
