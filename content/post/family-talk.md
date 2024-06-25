@@ -1,7 +1,7 @@
 ---
 draft: true
 title: Family Talk
-summary: Strategies to start a conversation on mental health in Asian families.
+summary: Strategies to start a conversation on mental health in Asian families
 date: 2024-06-24T04:00:00.000Z
 category: resourcesForProviders
 typeOfResource: worksheet
