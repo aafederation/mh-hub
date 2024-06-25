@@ -20,6 +20,8 @@ downloads:
     pdf: >-
       /img/pdf/Recognizing Signs of Mental Health Distress in Your Older Adult
       Relative A Caregiver’s Guide.pdf
+relatedResources:
+  - post: content/post/identifying-depression.md
 ---
 
 Common signs of mental health issues among seniors. 
