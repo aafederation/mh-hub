@@ -25,8 +25,6 @@ downloads:
     pdf: >-
       /img/pdf/How to Support Your Child If They_re Being Bullied - All
       Languages.pdf
-relatedResources:
-  - post: content/post/link-mental-health-directory.md
 ---
 
 
