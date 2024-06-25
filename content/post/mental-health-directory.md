@@ -7,6 +7,7 @@ category: resourcesForClients
 typeOfResource: resource
 type: link
 linkUrl: 'https://mhd.aafederation.org'
+priority: 1
 image: /img/RubinWorkshop.jpg
 tags:
   - adults
