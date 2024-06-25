@@ -15,6 +15,7 @@ downloads:
   - language: english
     pdf: /img/pdf/Family Talk Strategies One-Pager.pdf
 relatedResources:
+  - post: content/post/identifying-depression.md
   - post: content/post/mental-health-directory.md
 ---
 
