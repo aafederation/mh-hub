@@ -16,6 +16,8 @@ downloads:
     pdf: /img/pdf/2022 SWG Agenda.pdf
 relatedResources:
   - post: >-
+      content/post/link-toward-better-aging:-a-national-study-of-korean-older-adults.md
+  - post: >-
       content/post/asian-american-seniors-in-new-york-city:-an-updated-snapshot-.md
   - post: content/post/link-how-to-support-your-child.md
 ---
