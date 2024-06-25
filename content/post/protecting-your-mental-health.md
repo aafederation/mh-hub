@@ -1,7 +1,7 @@
 ---
 draft: true
 title: 'Protecting Your Mental Health '
-summary: Simple stress management and grounding techniques for daily life.
+summary: Simple stress management and grounding techniques for daily life
 date: 2024-06-30T04:00:00.000Z
 category: resourcesForClients
 typeOfResource: exercise
