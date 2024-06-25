@@ -14,6 +14,8 @@ tags:
 downloads:
   - language: english
     pdf: /img/pdf/Family Talk Strategies One-Pager.pdf
+relatedResources:
+  - post: content/post/mental-health-directory.md
 ---
 
 Strategies to start a conversation on mental health in Asian families.
