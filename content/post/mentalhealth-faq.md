@@ -13,6 +13,8 @@ tags:
 downloads:
   - language: english
     pdf: /img/pdf/Mental Health FAQs.pdf
+relatedResources:
+  - post: content/post/mental-health-directory.md
 ---
 
 Frequently asked questions about mental health and how to get help.
