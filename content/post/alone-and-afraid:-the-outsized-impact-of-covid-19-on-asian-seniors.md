@@ -14,6 +14,8 @@ tags:
 downloads:
   - language: english
     pdf: /img/pdf/2022 SWG Agenda.pdf
+relatedResources:
+  - post: content/post/link-how-to-support-your-child.md
 ---
 
 A 2022 policy brief on the needs of Asian older adults during the pandemic. 
