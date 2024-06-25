@@ -23,7 +23,7 @@ downloads:
   - language: english
     pdf: /img/pdf/Protecting Your Mental Health - English.pdf
 relatedResources:
-  - {}
+  - post: content/post/mental-health-directory.md
 ---
 
 Simple stress management and grounding techniques for daily life.
