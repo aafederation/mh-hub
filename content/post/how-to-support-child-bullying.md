@@ -26,6 +26,8 @@ downloads:
       /img/pdf/How to Support Your Child If They_re Being Bullied - All
       Languages.pdf
 relatedResources:
+  - post: >-
+      content/post/link-seeking-help,-finding-hope:-mental-health-challenges-and-solutions-for-asian-americans-in-new-york-city.md
   - post: content/post/mental-health-directory.md
   - post: content/post/family-talk.md
 ---
