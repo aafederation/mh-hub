@@ -15,6 +15,8 @@ downloads:
   - language: english
     pdf: /img/pdf/2022 SWG Agenda.pdf
 relatedResources:
+  - post: >-
+      content/post/asian-american-seniors-in-new-york-city:-an-updated-snapshot-.md
   - post: content/post/link-how-to-support-your-child.md
 ---
 
