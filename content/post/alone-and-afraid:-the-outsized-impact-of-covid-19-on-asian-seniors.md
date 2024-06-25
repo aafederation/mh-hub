@@ -1,7 +1,7 @@
 ---
 draft: true
 title: 'Alone and Afraid: The Outsized Impact of COVID-19 on Asian Seniors'
-summary: A 2022 policy brief on the needs of Asian older adults during the pandemic.
+summary: A 2022 policy brief on the needs of Asian older adults during the pandemic
 date: 2022-02-01T05:00:00.000Z
 category: researchAndPolicy
 typeOfResource: policy
