@@ -1,7 +1,7 @@
 ---
 draft: true
 title: 'Toward Better Aging: A National Study of Korean Older Adults'
-summary: A 2024 nationwide study of Korean older adults.
+summary: A 2024 nationwide study of Korean older adults
 date: 2023-12-20T05:00:00.000Z
 category: researchAndPolicy
 typeOfResource: report
