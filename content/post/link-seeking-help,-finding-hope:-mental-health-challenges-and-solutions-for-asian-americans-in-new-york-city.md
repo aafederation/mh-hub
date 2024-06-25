@@ -3,7 +3,7 @@ draft: true
 title: >-
   Seeking Help, Finding Hope: Mental Health Challenges and Solutions for Asian
   Americans in New York City
-summary: A 2024 survey from AAF on post-COVID challenges to Asian mental health.
+summary: A 2024 survey from AAF on post-COVID challenges to Asian mental health
 date: 2024-06-24T04:00:00.000Z
 category: researchAndPolicy
 typeOfResource: report
