@@ -5,31 +5,41 @@ import Image from "next/image";
 export const ResourceItemCard = ({ resource }) => {
   return (
     <section className="card-resource-item">
-      <div
-        className="member_img display-grid pad-bottom-300"
-        data-tina-field={tinaField(resource, "image")}
+      <a
+        href={
+          resource.type === "link"
+            ? resource?.linkUrl
+            : `/post/${resource._sys.filename}`
+        }
+        target={resource.type === "link" && "_blank"}
+        rel={resource.type === "link" && "noopener noreferrer"}
       >
-        <Image
-          src={
-            resource?.image !== ""
-              ? encodeURI(resource.image)
-              : "/img/blank.svg"
-          }
-          // src={"/img/blank.svg"}
-          alt="our_team"
-          width={300}
-          height={300}
-          className="display-grid-row-1-20"
-        />
         <div
-          className="display-grid-row-18-20"
-          data-tina-field={tinaField(resource, "typeOfResource")}
+          className="member_img display-grid pad-bottom-300"
+          data-tina-field={tinaField(resource, "image")}
         >
-          <span className="resource-type-display gap-left-300 gap-bottom-300">
-            {resource?.typeOfResource}
-          </span>
+          <Image
+            src={
+              resource?.image !== ""
+                ? encodeURI(resource.image)
+                : "/img/blank.svg"
+            }
+            // src={"/img/blank.svg"}
+            alt="our_team"
+            width={300}
+            height={300}
+            className="display-grid-row-1-20"
+          />
+          <div
+            className="display-grid-row-18-20"
+            data-tina-field={tinaField(resource, "typeOfResource")}
+          >
+            <span className="resource-type-display gap-left-300 gap-bottom-300">
+              {resource?.typeOfResource}
+            </span>
+          </div>
         </div>
-      </div>
+      </a>
       <span className="date" data-tina-field={tinaField(resource, "date")}>
         {new Date(resource?.date).toLocaleDateString("en-us", {
           day: "2-digit",
