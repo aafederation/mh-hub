@@ -21,6 +21,8 @@ downloads:
     pdf: /img/pdf/MH_Report_2017.pdf
 relatedResources:
   - post: >-
+      content/post/bridging-the-gap:-policy-recommendations-for-improving-mental-health-services.md
+  - post: >-
       content/post/link-seeking-help,-finding-hope:-mental-health-challenges-and-solutions-for-asian-americans-in-new-york-city.md
 ---
 
