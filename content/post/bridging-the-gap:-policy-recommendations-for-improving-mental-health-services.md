@@ -3,7 +3,7 @@ draft: true
 title: 'Bridging the Gap: Policy Recommendations for Improving Mental Health Services'
 summary: >-
   A 2024 policy brief with recommendations to improve mental healthcare for
-  Asian New Yorkers.
+  Asian New Yorkers
 date: 2024-04-15T04:00:00.000Z
 category: researchAndPolicy
 typeOfResource: policy
