@@ -15,6 +15,9 @@ tags:
 downloads:
   - language: english
     pdf: /img/pdf/Mental Health Roundtable Policy Brief_FINAL.pdf
+relatedResources:
+  - post: >-
+      content/post/link-seeking-help,-finding-hope:-mental-health-challenges-and-solutions-for-asian-americans-in-new-york-city.md
 ---
 
 A 2024 policy brief with recommendations to improve mental healthcare for Asian New Yorkers. 
