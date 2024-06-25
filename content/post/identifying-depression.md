@@ -14,6 +14,8 @@ tags:
 downloads:
   - language: english
     pdf: /img/pdf/Identifying Depression.pdf
+relatedResources:
+  - post: content/post/mental-health-directory.md
 ---
 
 Checklist of common sign and symptoms of depression
