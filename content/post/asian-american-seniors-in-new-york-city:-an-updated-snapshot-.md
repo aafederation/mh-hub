@@ -1,7 +1,7 @@
 ---
 draft: true
 title: 'Asian American Seniors in New York City: An Updated Snapshot '
-summary: A 2016 report from AAF on demographics and needs of older Asian New Yorkers.
+summary: A 2016 report from AAF on demographics and needs of older Asian New Yorkers
 date: 2016-08-26T04:00:00.000Z
 category: researchAndPolicy
 typeOfResource: report
