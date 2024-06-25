@@ -14,6 +14,9 @@ tags:
 downloads:
   - language: english
     pdf: /img/pdf/Senior_Report_2016.pdf
+relatedResources:
+  - post: >-
+      content/post/alone-and-afraid:-the-outsized-impact-of-covid-19-on-asian-seniors.md
 ---
 
 A 2016 report from AAF on demographics and needs of older Asian New Yorkers.
