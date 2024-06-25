@@ -8,13 +8,11 @@ export const Footer = () => {
           AAF's Mental Health Hub was made possible with support from
         </p>
         <div className="wrapper" data-variant="narrow">
-          <Image
+          <img
             src="/img/logo/MotherCabriniLogo.png"
             style={{
               maxWidth: "70%",
             }}
-            width={420}
-            height={142.188}
           />
         </div>
       </div>
