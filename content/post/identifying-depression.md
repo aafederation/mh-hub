@@ -1,7 +1,7 @@
 ---
 draft: true
 title: Identifying Depression
-summary: Checklist of common sign and symptoms of depression.
+summary: Checklist of common sign and symptoms of depression
 date: 2024-05-31T18:15:00.000Z
 category: resourcesForProviders
 typeOfResource: worksheet
