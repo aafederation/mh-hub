@@ -23,6 +23,7 @@ downloads:
   - language: english
     pdf: /img/pdf/Protecting Your Mental Health - English.pdf
 relatedResources:
+  - post: content/post/link-how-to-support-your-child.md
   - post: content/post/mental-health-directory.md
 ---
 
