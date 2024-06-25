@@ -25,6 +25,8 @@ downloads:
     pdf: >-
       /img/pdf/How to Support Your Child If They_re Being Bullied - All
       Languages.pdf
+relatedResources:
+  - post: content/post/family-talk.md
 ---
 
 This infographic shares tips on how to communicate with your child so they feel safe and heard.
