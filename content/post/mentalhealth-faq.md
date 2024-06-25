@@ -14,6 +14,7 @@ downloads:
   - language: english
     pdf: /img/pdf/Mental Health FAQs.pdf
 relatedResources:
+  - post: content/post/identifying-depression.md
   - post: content/post/mental-health-directory.md
 ---
 
