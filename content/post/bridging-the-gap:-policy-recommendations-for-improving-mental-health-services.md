@@ -16,6 +16,7 @@ downloads:
   - language: english
     pdf: /img/pdf/Mental Health Roundtable Policy Brief_FINAL.pdf
 relatedResources:
+  - post: content/post/overcoming-challenges.md
   - post: >-
       content/post/link-seeking-help,-finding-hope:-mental-health-challenges-and-solutions-for-asian-americans-in-new-york-city.md
 ---
