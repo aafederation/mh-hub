@@ -20,6 +20,7 @@ downloads:
   - language: english
     pdf: /img/pdf/MH_Report_2017.pdf
 relatedResources:
+  - post: content/post/protecting-your-mental-health.md
   - post: >-
       content/post/bridging-the-gap:-policy-recommendations-for-improving-mental-health-services.md
   - post: >-
