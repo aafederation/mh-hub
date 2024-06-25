@@ -21,6 +21,7 @@ downloads:
       /img/pdf/Recognizing Signs of Mental Health Distress in Your Older Adult
       Relative A Caregiver’s Guide.pdf
 relatedResources:
+  - post: content/post/mentalhealth-faq.md
   - post: content/post/mental-health-directory.md
   - post: content/post/identifying-depression.md
 ---
