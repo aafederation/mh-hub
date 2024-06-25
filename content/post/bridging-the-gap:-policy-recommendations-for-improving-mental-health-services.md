@@ -16,6 +16,8 @@ downloads:
   - language: english
     pdf: /img/pdf/Mental Health Roundtable Policy Brief_FINAL.pdf
 relatedResources:
+  - post: >-
+      content/post/alone-and-afraid:-the-outsized-impact-of-covid-19-on-asian-seniors.md
   - post: content/post/overcoming-challenges.md
   - post: >-
       content/post/link-seeking-help,-finding-hope:-mental-health-challenges-and-solutions-for-asian-americans-in-new-york-city.md
