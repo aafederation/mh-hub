@@ -1,8 +1,8 @@
 ---
 draft: true
 title: Mental Health Directory
-summary: Mental health directory for clients
-date: '2024-05-31T18:15:00.000Z'
+summary: A directory with over 400 providers who speak 19+ Asian languages
+date: 2024-05-31T18:15:00.000Z
 category: resourcesForClients
 typeOfResource: resource
 type: link
@@ -16,6 +16,4 @@ tags:
   - stressManagement
   - bullying
 ---
-
-
 
