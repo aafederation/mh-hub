@@ -11,8 +11,8 @@ export const ResourceItemCard = ({ resource }) => {
             ? resource?.linkUrl
             : `/post/${resource._sys.filename}`
         }
-        target={resource.type === "link" && "_blank"}
-        rel={resource.type === "link" && "noopener noreferrer"}
+        target={resource.type === "link" ? "_blank" : undefined}
+        rel={resource.type === "link" ? "noopener noreferrer" : undefined}
       >
         <div
           className="member_img display-grid pad-bottom-300"
