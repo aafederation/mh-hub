@@ -11,9 +11,11 @@ export const ListPosts = ({ postListDetails, anchor }) => {
         {postListDetails.title}
       </h2>
       <div className="display-grid grid-3up justify-items-center align-items-start column-gap-3rem row-gap-4rem">
-        {postListDetails.items.map((item, i) => {
-          if (item) return <ResourceItemCard resource={item} key={i} />;
-        })}
+        {postListDetails.items
+          .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
+          .map((item, i) => {
+            if (item) return <ResourceItemCard resource={item} key={i} />;
+          })}
       </div>
     </div>
   );
