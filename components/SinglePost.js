@@ -30,7 +30,12 @@ export const SinglePost = ({ postData }) => {
         </span>{" "}
         |{" "}
         <span data-tina-field={tinaField(postData)}>
-          {postData?.tags?.join(", ")}
+          {postData?.tags
+            ?.map(
+              (tagValue) =>
+                globalValues.tags.find((tag) => tag.value === tagValue).label
+            )
+            .join(", ")}
         </span>
       </span>
       <h2
