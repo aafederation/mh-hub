@@ -34,7 +34,7 @@ export const SinglePost = ({ postData }) => {
         </span>
       </span>
       <h2
-        className="pad-top-300 pad-bottom-500 text-transform-capitalize"
+        className="pad-top-300 pad-bottom-500"
         data-tina-field={tinaField(postData, "title")}
       >
         {postData?.title}

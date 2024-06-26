@@ -48,7 +48,7 @@ export const ResourceItemCard = ({ resource }) => {
         })}
       </span>
       <h2
-        className="pad-top-300 text-transform-capitalize"
+        className="pad-top-300"
         data-tina-field={tinaField(resource, "title")}
       >
         {resource.type === "link" ? (
