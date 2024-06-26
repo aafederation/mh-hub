@@ -7,7 +7,7 @@ import globalValues from "@/content/globals/global-values.json";
 export const SinglePost = ({ postData }) => {
   return (
     <div className="wrapper single-post gap-bottom-1000">
-      <div className="pad-top-500 pad-bottom-500">
+      <div className="pad-top-500 pad-bottom-800">
         <span className="color-dark-grey">
           <a className="link-no-decoration" href="/">
             Home
