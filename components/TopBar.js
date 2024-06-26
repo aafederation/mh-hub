@@ -36,7 +36,7 @@ export const TopBar = () => {
           </div>
           <div>
             <a
-              href="https://www.classy.org/give/253719/#!/donation/checkout"
+              href="https://www.aafederation.org/donate"
               target="_blank"
               className="mhd-button-widget bg-white font-serif link-pointer"
               data-variant="invert"
