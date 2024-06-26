@@ -1,4 +1,5 @@
 import { ResourceItemCard } from "./ResourceItemCard";
+import { sortItemsByPriorityAndDate } from "@/lib/utilities";
 
 export const ListPosts = ({ postListDetails, anchor }) => {
   return (
@@ -12,7 +13,7 @@ export const ListPosts = ({ postListDetails, anchor }) => {
       </h2>
       <div className="display-grid grid-3up justify-items-center align-items-start column-gap-3rem row-gap-4rem">
         {postListDetails.items
-          .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
+          .sort(sortItemsByPriorityAndDate)
           .map((item, i) => {
             if (item) return <ResourceItemCard resource={item} key={i} />;
           })}
