@@ -7,7 +7,9 @@ export const Layout = ({ children }) => {
   return (
     <>
       <HeadMatter />
-      <TopBar />
+      <section className="display-none sm:display-block">
+        <TopBar />
+      </section>
       <Menu />
       {children}
       <Footer />
