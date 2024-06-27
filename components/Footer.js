@@ -5,7 +5,8 @@ export const Footer = () => {
     <div>
       <div className="[  index-blurb flow ] [ pad-top-1000 pad-right-500 pad-bottom-1000 pad-left-500 bg-canvas ]">
         <p className="text-500 weight-bold ta-center">
-          AAF's Mental Health Hub was made possible with support from
+          AAF's Mental Health Hub was made possible with contributions from the
+          Asian American Mental Health Roundtable and the support of
         </p>
         <div className="wrapper" data-variant="narrow">
           <img
