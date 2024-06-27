@@ -33,9 +33,12 @@ export const DownloadPDF = ({ downloads }) => {
         </div>
       </div>
       <iframe
-        title="Inline Frame Example"
+        title="Resource PDF"
         src={pdfToShow + "#view=fit&navpanes=0"}
         style={{ width: "100%", height: "100vh" }}
+        onLoad={function () {
+          this.document.getElementsByTagName("img")[0].style.width = "100%";
+        }}
       />
     </>
   );
