@@ -7,30 +7,31 @@ export const DownloadPDF = ({ downloads }) => {
 
   return (
     <>
-      <h3 className="pad-bottom-700">
-        Download in{" "}
-        {downloads.map((download) => {
-          return (
-            download.language &&
-            download.pdf && (
-              <span key={download.language}>
-                &nbsp;&nbsp;&nbsp;
-                <a
-                  className="link-pointer-gold"
-                  data-tina-field={tinaField(download)}
-                  onClick={() => setPdfToShow(download.pdf)}
-                >
-                  {
-                    globalValues.languages.find(
-                      (language) => language.value === download.language
-                    ).label
-                  }
-                </a>
-              </span>
-            )
-          );
-        })}
-      </h3>
+      <div className="pad-bottom-700 split-pair">
+        <h3>Download in</h3>
+        <div className="display-flex flex-wrap-wrap justify-content-flex-start row-gap-05-rem">
+          {downloads.map((download) => {
+            return (
+              download.language &&
+              download.pdf && (
+                <h3 key={download.language}>
+                  <a
+                    className="link-pointer-gold"
+                    data-tina-field={tinaField(download)}
+                    onClick={() => setPdfToShow(download.pdf)}
+                  >
+                    {
+                      globalValues.languages.find(
+                        (language) => language.value === download.language
+                      ).label
+                    }
+                  </a>
+                </h3>
+              )
+            );
+          })}
+        </div>
+      </div>
       <iframe
         title="Inline Frame Example"
         src={pdfToShow + "#view=fit&navpanes=0"}
