@@ -3,7 +3,7 @@ import { sortItemsByPriorityAndDate } from "@/lib/utilities";
 
 export const ListPosts = ({ postListDetails, anchor }) => {
   return (
-    <div className="pad-top-1000 pad-bottom-700">
+    <div className="pad-top-1000 pad-bottom-700 pad-left-300 pad-right-300">
       <h2
         className="text-transform-uppercase pad-bottom-800"
         id={anchor}
