@@ -2,13 +2,16 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <div>
-      <div className="[  index-blurb flow ] [ pad-top-1000 pad-right-500 pad-bottom-1000 pad-left-500 bg-canvas ]">
-        <p className="text-500 weight-bold ta-center">
+    <div className="bg-canvas">
+      <div
+        className="[ index-blurb flow ] [ pad-top-1000 pad-right-500 pad-bottom-1000 pad-left-500 ] [ wrapper ta-center ]"
+        data-variant="narrow"
+      >
+        <p className="text-500 weight-bold">
           AAF's Mental Health Hub was made possible with contributions from the
           Asian American Mental Health Roundtable and the support of
         </p>
-        <div className="wrapper" data-variant="narrow">
+        <div>
           <img
             src="/img/logo/MotherCabriniLogo.png"
             style={{
@@ -16,6 +19,13 @@ export const Footer = () => {
             }}
           />
         </div>
+        <span>
+          Disclaimer: The materials available on AAF's Mental Health Hub website
+          are for informational purposes only and are not intended to replace
+          professional advice, diagnosis, or treatment. Always seek the advice
+          of your therapist or other qualified health provider with any
+          questions you may have regarding a mental health condition.
+        </span>
       </div>
       <div className="bg-dark gap-top-300 pad-top-500 pad-bottom-500">
         <div className="wrapper footer-tiles">
