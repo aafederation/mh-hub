@@ -17,8 +17,8 @@ export const Menu = () => {
                   src="/img/logo/AAF-Logo.svg"
                   alt="logo"
                   className="header-logo"
-                  width={331.766}
-                  height={47}
+                  width={300}
+                  height={42}
                 />
               </a>
             </div>

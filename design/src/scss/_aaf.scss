@@ -47,8 +47,14 @@ header {
   a {
     img {
       height: 35px;
-      @media only screen and (min-width: 1024px) {
+      width: 250px;
+      @include media-query("sm") {
+        height: 42px;
+        width: 300px;
+      }
+      @include media-query("lg") {
         height: 47px;
+        width: 332px;
       }
     }
   }
