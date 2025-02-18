@@ -13,7 +13,7 @@ tags:
   - youth
 downloads:
   - language: english
-    pdf: /img/pdf/Family Talk Strategies One-Pager.pdf
+    pdf: /img/Family Talk Strategies One-Pager - English.pdf
 relatedResources:
   - post: content/post/mentalhealth-faq.md
   - post: content/post/identifying-depression.md
