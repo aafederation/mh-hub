@@ -2,6 +2,10 @@
   "title": "Global values",
   "languages": [
     {
+      "value": "vietnamese",
+      "label": "Vietnamese"
+    },
+    {
       "value": "urdu",
       "label": "Urdu"
     },
