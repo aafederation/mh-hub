@@ -13,6 +13,7 @@ tags:
   - bullying
   - familyParenting
 downloads:
+  - pdf: /img/How to Support Your Child If They're Being Bullied - Cambodian.pdf
   - language: korean
     pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Korean.pdf
   - language: arabic
