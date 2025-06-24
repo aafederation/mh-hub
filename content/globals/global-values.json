@@ -2,6 +2,10 @@
   "title": "Global values",
   "languages": [
     {
+      "value": "cambodian",
+      "label": "Cambodian"
+    },
+    {
       "value": "arabic",
       "label": "Arabic"
     },
