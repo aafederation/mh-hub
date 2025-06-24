@@ -2,26 +2,6 @@
   "title": "Global values",
   "languages": [
     {
-      "value": "burmese",
-      "label": "Burmese"
-    },
-    {
-      "value": "vietnamese",
-      "label": "Vietnamese"
-    },
-    {
-      "value": "urdu",
-      "label": "Urdu"
-    },
-    {
-      "value": "japanese",
-      "label": "Japanese"
-    },
-    {
-      "value": "cambodian",
-      "label": "Cambodian"
-    },
-    {
       "value": "arabic",
       "label": "Arabic"
     },
@@ -30,12 +10,24 @@
       "label": "Bangla"
     },
     {
-      "value": "english",
-      "label": "English"
+      "value": "burmese",
+      "label": "Burmese"
+    },
+    {
+      "value": "cambodian",
+      "label": "Cambodian"
     },
     {
       "value": "chinese",
       "label": "Chinese"
+    },
+    {
+      "value": "english",
+      "label": "English"
+    },
+    {
+      "value": "japanese",
+      "label": "Japanese"
     },
     {
       "value": "korean",
@@ -44,6 +36,14 @@
     {
       "value": "tagalog",
       "label": "Tagalog"
+    },
+    {
+      "value": "urdu",
+      "label": "Urdu"
+    },
+    {
+      "value": "vietnamese",
+      "label": "Vietnamese"
     }
   ],
   "categories": [
