@@ -12,6 +12,8 @@ tags:
   - stressManagement
   - adults
 downloads:
+  - language: vietnamese
+    pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Vietnamese.pdf
   - language: urdu
     pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Urdu.pdf
   - language: cambodian
