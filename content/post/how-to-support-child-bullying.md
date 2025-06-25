@@ -13,33 +13,33 @@ tags:
   - bullying
   - familyParenting
 downloads:
-  - language: burmese
-    pdf: >-
-      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Burmese.pdf
-  - language: vietnamese
-    pdf: >-
-      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Vietnamese.pdf
-  - language: urdu
-    pdf: >-
-      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Urdu.pdf
-  - language: japanese
-    pdf: >-
-      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Japanese.pdf
-  - language: cambodian
-    pdf: >-
-      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Cambodian.pdf
-  - language: korean
-    pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Korean.pdf
   - language: arabic
     pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Arabic.pdf
   - language: bangla
     pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Bangla.pdf
+  - language: burmese
+    pdf: >-
+      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Burmese.pdf
+  - language: cambodian
+    pdf: >-
+      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Cambodian.pdf
   - language: chinese
     pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Chinese.pdf
   - language: english
     pdf: >-
       /img/pdf/How to Support Your Child If They_re Being Bullied - All
       Languages.pdf
+  - language: japanese
+    pdf: >-
+      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Japanese.pdf
+  - language: korean
+    pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Korean.pdf
+  - language: urdu
+    pdf: >-
+      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Urdu.pdf
+  - language: vietnamese
+    pdf: >-
+      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Vietnamese.pdf
 relatedResources:
   - post: >-
       content/post/link-seeking-help,-finding-hope:-mental-health-challenges-and-solutions-for-asian-americans-in-new-york-city.md
