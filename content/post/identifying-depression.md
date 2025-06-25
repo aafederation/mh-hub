@@ -12,18 +12,18 @@ tags:
   - adults
   - depression
 downloads:
-  - language: urdu
-    pdf: /img/pdf/Identifying%20Depression%20-%20Urdu.pdf
-  - language: korean
-    pdf: /img/pdf/Identifying%20Depression%20-%20Korean.pdf
-  - language: chinese
-    pdf: /img/pdf/Identifying%20Depression%20-%20Chinese.pdf
-  - language: bangla
-    pdf: /img/pdf/Identifying%20Depression%20-%20Bangla.pdf
   - language: arabic
     pdf: /img/Identifying Depression - Arabic.pdf
+  - language: bangla
+    pdf: /img/pdf/Identifying%20Depression%20-%20Bangla.pdf
+  - language: chinese
+    pdf: /img/pdf/Identifying%20Depression%20-%20Chinese.pdf
   - language: english
     pdf: /img/pdf/Identifying Depression.pdf
+  - language: korean
+    pdf: /img/pdf/Identifying%20Depression%20-%20Korean.pdf
+  - language: urdu
+    pdf: /img/pdf/Identifying%20Depression%20-%20Urdu.pdf
 relatedResources:
   - post: content/post/mentalhealth-faq.md
   - post: >-
