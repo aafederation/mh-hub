@@ -13,7 +13,7 @@ tags:
   - depression
 downloads:
   - language: arabic
-    pdf: /img/Identifying Depression - Arabic.pdf
+    pdf: /img/pdf/Identifying%20Depression%20-%20Arabic.pdf
   - language: bangla
     pdf: /img/pdf/Identifying%20Depression%20-%20Bangla.pdf
   - language: chinese
