@@ -12,6 +12,8 @@ tags:
   - adults
   - depression
 downloads:
+  - language: chinese
+    pdf: /img/pdf/Identifying%20Depression%20-%20Chinese.pdf
   - language: bangla
     pdf: /img/pdf/Identifying%20Depression%20-%20Bangla.pdf
   - language: arabic
