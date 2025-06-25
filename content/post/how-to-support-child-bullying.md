@@ -13,6 +13,9 @@ tags:
   - bullying
   - familyParenting
 downloads:
+  - language: urdu
+    pdf: >-
+      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Urdu.pdf
   - language: japanese
     pdf: >-
       /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Japanese.pdf
