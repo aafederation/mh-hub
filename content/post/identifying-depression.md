@@ -12,6 +12,8 @@ tags:
   - adults
   - depression
 downloads:
+  - language: urdu
+    pdf: /img/pdf/Identifying%20Depression%20-%20Urdu.pdf
   - language: korean
     pdf: /img/pdf/Identifying%20Depression%20-%20Korean.pdf
   - language: chinese
