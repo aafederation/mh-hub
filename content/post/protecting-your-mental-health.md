@@ -12,24 +12,24 @@ tags:
   - stressManagement
   - adults
 downloads:
-  - language: burmese
-    pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Burmese.pdf
-  - language: vietnamese
-    pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Vietnamese.pdf
-  - language: urdu
-    pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Urdu.pdf
-  - language: cambodian
-    pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Cambodian.pdf
-  - language: korean
-    pdf: /img/pdf/Protecting Your Mental Health - Korean.pdf
-  - language: chinese
-    pdf: /img/pdf/Protecting Your Mental Health - Chinese.pdf
-  - language: bangla
-    pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Bangla.pdf
   - language: arabic
     pdf: /img/pdf/Protecting Your Mental Health - Arabic.pdf
+  - language: bangla
+    pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Bangla.pdf
+  - language: burmese
+    pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Burmese.pdf
+  - language: cambodian
+    pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Cambodian.pdf
+  - language: chinese
+    pdf: /img/pdf/Protecting Your Mental Health - Chinese.pdf
   - language: english
     pdf: /img/pdf/Protecting Your Mental Health - English.pdf
+  - language: korean
+    pdf: /img/pdf/Protecting Your Mental Health - Korean.pdf
+  - language: urdu
+    pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Urdu.pdf
+  - language: vietnamese
+    pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Vietnamese.pdf
 relatedResources:
   - post: content/post/identifying-depression.md
   - post: >-
