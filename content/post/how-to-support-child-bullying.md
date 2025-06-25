@@ -13,6 +13,9 @@ tags:
   - bullying
   - familyParenting
 downloads:
+  - language: burmese
+    pdf: >-
+      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Burmese.pdf
   - language: vietnamese
     pdf: >-
       /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Vietnamese.pdf
