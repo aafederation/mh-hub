@@ -11,6 +11,8 @@ image: /img/Thumbnail Images/Mental Health FAQs.png
 tags:
   - adults
 downloads:
+  - language: chinese
+    pdf: /img/pdf/Mental%20Health%20FAQs%20-%20Chinese.pdf
   - language: bangla
     pdf: /img/pdf/Mental%20Health%20FAQs%20-%20Bangla.pdf
   - language: arabic
