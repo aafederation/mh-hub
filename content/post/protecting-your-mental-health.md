@@ -12,6 +12,8 @@ tags:
   - stressManagement
   - adults
 downloads:
+  - language: urdu
+    pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Urdu.pdf
   - language: cambodian
     pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Cambodian.pdf
   - language: korean
