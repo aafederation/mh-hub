@@ -12,6 +12,8 @@ tags:
   - stressManagement
   - adults
 downloads:
+  - language: japanese
+    pdf: /img/pdf/Protecting Your Mental Health - Japanese.pdf
   - language: arabic
     pdf: /img/pdf/Protecting Your Mental Health - Arabic.pdf
   - language: bangla
