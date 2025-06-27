@@ -11,8 +11,6 @@ image: /img/Thumbnail Images/Mental Health FAQs.png
 tags:
   - adults
 downloads:
-  - language: urdu
-    pdf: /img/pdf/Mental%20Health%20FAQs%20-%20Urdu.pdf
   - language: arabic
     pdf: /img/pdf/Mental%20Health%20FAQs%20-%20Arabic.pdf
   - language: bangla
@@ -23,6 +21,8 @@ downloads:
     pdf: /img/pdf/Mental Health FAQs.pdf
   - language: korean
     pdf: /img/pdf/Mental Health FAQs - Korean.pdf
+  - language: urdu
+    pdf: /img/pdf/Mental%20Health%20FAQs%20-%20Urdu.pdf
 relatedResources:
   - post: >-
       content/post/link-seeking-help,-finding-hope:-mental-health-challenges-and-solutions-for-asian-americans-in-new-york-city.md
