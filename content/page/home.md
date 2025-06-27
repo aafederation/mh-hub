@@ -4,7 +4,7 @@ heading: Asian Mental Health Hub
 subHeading: >-
   Helping mental health providers bring culturally-competent care to Asian
   Americans
-image: /img/MH Hub Cover.png
+image: /img/MH Hub Cover (1).png
 resources:
   - icon: /img/icon/loving-hands.svg
     category: resourcesForClients
