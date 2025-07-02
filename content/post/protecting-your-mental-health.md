@@ -24,6 +24,8 @@ downloads:
     pdf: /img/pdf/Protecting Your Mental Health - Chinese.pdf
   - language: english
     pdf: /img/pdf/Protecting Your Mental Health - English.pdf
+  - language: hindi
+    pdf: /img/pdf/Protecting%20Your%20Mental%20Health%20-%20Hindi.pdf
   - language: japanese
     pdf: /img/pdf/Protecting Your Mental Health - Japanese.pdf
   - language: korean
