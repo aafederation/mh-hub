@@ -18,6 +18,6 @@ downloads:
 relatedResources:
   - post: content/post/identifying-depression.md
   - post: content/post/mentalhealth-faq.md
-  - {}
+  - post: content/post/protecting-your-mental-health.md
 ---
 
