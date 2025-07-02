@@ -34,3 +34,8 @@ relatedResources:
   - post: content/post/protecting-your-mental-health.md
 ---
 
+ A guide to identifying what a mental health crisis looks like and how to help a person going through one.
+
+Good for: 
+
+* Individuals who want to support friends, loved ones, or strangers through a mental health crisis
