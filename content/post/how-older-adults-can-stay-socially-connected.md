@@ -35,3 +35,7 @@ relatedResources:
       content/post/recognizing-signs-of-mental-health-distress-in-older-adults.md
 ---
 
+Good for: 
+
+* Caregivers who want to provide their parents or grandparents with meaningful social activities
+* Older adults looking to stay mentally and physically active with others
