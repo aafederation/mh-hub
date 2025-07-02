@@ -1,7 +1,7 @@
 ---
 draft: true
 title: Mental Health Directory
-summary: A directory with over 400 providers who speak 19+ Asian languages
+summary: A directory with over 600 providers who speak 19+ Asian languages
 date: 2024-05-31T18:15:00.000Z
 category: resourcesForClients
 typeOfResource: resource
