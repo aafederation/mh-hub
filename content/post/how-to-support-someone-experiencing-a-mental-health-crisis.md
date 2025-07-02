@@ -17,7 +17,7 @@ downloads:
       /img/pdf/How%20to%20Support%20Someone%20Experiencing%20a%20Mental%20Health%20Crisis%20-%20English.pdf
 relatedResources:
   - post: content/post/identifying-depression.md
-  - {}
+  - post: content/post/mentalhealth-faq.md
   - {}
 ---
 
