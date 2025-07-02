@@ -1,7 +1,7 @@
 import { ResourceItemCard } from "./ResourceItemCard";
 import { sortItemsByPriorityAndDate } from "@/lib/utilities";
 
-export const ListPosts = ({ postListDetails, anchor }) => {
+export const ListPosts = ({ postListDetails, anchor, grid }) => {
   return (
     <div className="pad-top-1000 pad-bottom-700 pad-left-300 pad-right-300">
       <h2
@@ -11,7 +11,9 @@ export const ListPosts = ({ postListDetails, anchor }) => {
       >
         {postListDetails.title}
       </h2>
-      <div className="display-grid grid-3up justify-items-center align-items-start column-gap-3rem row-gap-4rem">
+      <div
+        className={`display-grid ${grid} justify-items-center align-items-start column-gap-3rem row-gap-4rem`}
+      >
         {postListDetails.items
           .sort(sortItemsByPriorityAndDate)
           .map((item, i) => {
