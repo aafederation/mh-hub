@@ -35,6 +35,8 @@ relatedResources:
       content/post/recognizing-signs-of-mental-health-distress-in-older-adults.md
 ---
 
+Practical tips for older adults to stay social and connected with others.
+
 Good for: 
 
 * Caregivers who want to provide their parents or grandparents with meaningful social activities
