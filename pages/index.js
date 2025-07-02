@@ -20,10 +20,7 @@ export default function Home({ result, posts }) {
   return (
     <Layout>
       <Hero homeData={data.page} />
-      <div
-        className="wrapper gap-top-1000 gap-bottom-1000"
-        data-variant="no-padding"
-      >
+      <div className="gap-top-1000">
         <MainBody homeData={data.page} posts={postData.postConnection.edges} />
       </div>
     </Layout>

@@ -14,10 +14,12 @@ export const MainBody = ({ homeData, posts }) => {
 
   return (
     <>
-      <div className="mhd-tiles">
-        {homeData.resources.map((resource, i) => (
-          <ResourceCard resource={resource} key={i} />
-        ))}
+      <div className="wrapper" data-variant="no-padding">
+        <div className="mhd-tiles">
+          {homeData.resources.map((resource, i) => (
+            <ResourceCard resource={resource} key={i} />
+          ))}
+        </div>
       </div>
 
       {globalValues.categories.map((category, i) => {
@@ -32,6 +34,9 @@ export const MainBody = ({ homeData, posts }) => {
               anchor={category.value}
               grid={
                 category.value === "researchAndPolicy" ? "grid-4up" : "grid-3up"
+              }
+              backgroundColor={
+                category.value === "researchAndPolicy" ? "#fff6ee" : "unset"
               }
             />
           );
