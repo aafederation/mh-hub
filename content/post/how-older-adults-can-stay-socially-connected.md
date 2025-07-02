@@ -13,7 +13,9 @@ tags:
   - adults
   - stressManagement
 downloads:
-  - {}
+  - language: english
+    pdf: >-
+      /img/pdf/How%20Older%20Adults%20Can%20Stay%20Socially%20Connected%20-%20English.pdf
 relatedResources:
   - post: >-
       content/post/recognizing-signs-of-mental-health-distress-in-older-adults.md
