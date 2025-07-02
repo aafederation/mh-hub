@@ -7,7 +7,7 @@ category: resourcesForProviders
 typeOfResource: worksheet
 type: article
 linkUrl: ''
-image: /img/Thumbnail Images/Mental Health FAQs.png
+image: /img/Thumbnail Images/MentalHealthFAQs.png
 tags:
   - adults
 downloads:
