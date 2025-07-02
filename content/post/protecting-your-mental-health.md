@@ -7,7 +7,7 @@ category: resourcesForClients
 typeOfResource: exercise
 type: article
 linkUrl: ''
-image: /img/Thumbnail Images/Protecting your Mental Health.png
+image: /img/Thumbnail Images/ProtectingYourMentalHealth.png
 tags:
   - stressManagement
   - adults
