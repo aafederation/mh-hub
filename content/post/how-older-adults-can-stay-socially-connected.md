@@ -15,6 +15,8 @@ tags:
 downloads:
   - language: arabic
     pdf: /img/pdf/How Older Adults Can Stay Socially Connected - Arabic.pdf
+  - language: bangla
+    pdf: /img/pdf/How Older Adults Can Stay Socially Connected - Bangla.pdf
   - language: chinese
     pdf: /img/pdf/How Older Adults Can Stay Socially Connected - Chinese.pdf
   - language: english
