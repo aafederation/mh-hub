@@ -2,7 +2,7 @@
 title: home
 heading: Asian Mental Health Hub
 subHeading: Mental health for Asian Americans—tools in eight Asian languages
-image: /img/MH Hub Cover (2).png
+image: /img/MH Hub Cover.png
 resources:
   - icon: /img/icon/loving-hands.svg
     category: resourcesForClients
