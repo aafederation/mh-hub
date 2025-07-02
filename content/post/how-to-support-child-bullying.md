@@ -7,7 +7,7 @@ category: resourcesForClients
 typeOfResource: worksheet
 type: article
 linkUrl: ''
-image: /img/Thumbnail Images/How to Support Your Child If They're Being Bullied.png
+image: /img/Thumbnail Images/Bullying.png
 tags:
   - youth
   - bullying
