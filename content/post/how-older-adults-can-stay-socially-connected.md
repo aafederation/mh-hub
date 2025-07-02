@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How Older Adults Can Stay Socially Connected
 date: 2025-07-01T04:00:00.000Z
 category: resourcesForClients
