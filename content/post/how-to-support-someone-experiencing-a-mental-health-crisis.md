@@ -5,6 +5,8 @@ date: 2025-07-01T04:00:00.000Z
 category: resourcesForClients
 typeOfResource: resource
 type: article
+image: >-
+  /img/Thumbnail%20Images/How%20to%20Support%20Someone%20Experiencing%20a%20Mental%20Health%20Crisis.png
 tags:
   - adults
   - anxiety
