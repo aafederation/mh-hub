@@ -5,12 +5,12 @@ subHeading: Mental health for Asian Americans—tools in eight Asian languages
 image: /img/MH Hub Cover.png
 resources:
   - icon: /img/icon/loving-hands.svg
-    category: resourcesForClients
-    description: Find worksheets and exercises for your clients to use.
-    buttonLabel: See resources
-  - icon: /img/icon/working.svg
     category: resourcesForProviders
     description: Discover different strategies and techniques to support your clients.
+    buttonLabel: See resources
+  - icon: /img/icon/working.svg
+    category: resourcesForClients
+    description: Find worksheets and exercises for your clients to use.
     buttonLabel: See resources
   - icon: /img/icon/research-paper.svg
     category: researchAndPolicy

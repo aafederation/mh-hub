@@ -52,16 +52,16 @@
   ],
   "categories": [
     {
-      "value": "resourcesForClients",
-      "label": "Resources for clients",
-      "order": 1,
-      "display": "Client resources"
-    },
-    {
       "value": "resourcesForProviders",
       "label": "Resources for providers",
-      "order": 2,
+      "order": 1,
       "display": "Strategies to talk to my client"
+    },
+    {
+      "value": "resourcesForClients",
+      "label": "Resources for clients",
+      "order": 2,
+      "display": "Client resources"
     },
     {
       "value": "researchAndPolicy",
