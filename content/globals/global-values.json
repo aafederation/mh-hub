@@ -61,7 +61,7 @@
       "value": "resourcesForClients",
       "label": "Resources for clients",
       "order": 2,
-      "display": "Client resources"
+      "display": "Resources for everyone"
     },
     {
       "value": "researchAndPolicy",
