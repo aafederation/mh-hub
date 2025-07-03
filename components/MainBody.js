@@ -32,11 +32,9 @@ export const MainBody = ({ homeData, posts }) => {
               }}
               key={category.value}
               anchor={category.value}
-              grid={
-                category.value === "researchAndPolicy" ? "grid-4up" : "grid-3up"
-              }
+              grid={category.value === "researchAndPolicy" && "grid-4up"}
               backgroundColor={
-                category.value === "researchAndPolicy" ? "#fff6ee" : "unset"
+                category.value === "researchAndPolicy" && "#fff6ee"
               }
             />
           );
