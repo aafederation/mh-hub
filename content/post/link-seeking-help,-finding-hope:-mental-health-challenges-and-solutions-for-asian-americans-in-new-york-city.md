@@ -9,6 +9,7 @@ category: researchAndPolicy
 typeOfResource: report
 type: link
 linkUrl: 'https://www.aafederation.org/seeking-help-finding-hope/'
+priority: 1
 image: '/img/Thumbnail Images/Seeking Help, Finding Hope.png'
 tags:
   - youth
