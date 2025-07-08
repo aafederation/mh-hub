@@ -15,8 +15,8 @@ resources:
   - icon: /img/icon/research-paper.svg
     category: researchAndPolicy
     description: >-
-      Gain insights into New York’s Asian community through our research
-      articles.
+      Gain insights into the state of Asian mental health in New York through
+      our research articles.
     buttonLabel: See resources
 ---
 
