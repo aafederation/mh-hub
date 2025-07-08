@@ -10,11 +10,13 @@ resources:
     buttonLabel: See resources
   - icon: /img/icon/working.svg
     category: resourcesForClients
-    description: Find worksheets and exercises for your clients to use.
+    description: Find worksheets and exercises for yourself and your loved ones.
     buttonLabel: See resources
   - icon: /img/icon/research-paper.svg
     category: researchAndPolicy
-    description: Learn more about New York’s Asian community through our research articles.
+    description: >-
+      Gain insights into New York’s Asian community through our research
+      articles.
     buttonLabel: See resources
 ---
 
