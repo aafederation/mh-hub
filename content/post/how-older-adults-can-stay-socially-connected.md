@@ -1,6 +1,7 @@
 ---
 draft: false
 title: How Older Adults Can Stay Socially Connected
+summary: Practical tips for older adults to stay social and connected with others
 date: 2025-07-01T04:00:00.000Z
 category: resourcesForClients
 typeOfResource: resource
@@ -37,7 +38,7 @@ relatedResources:
 
 Practical tips for older adults to stay social and connected with others.
 
-Good for: 
+Good for:
 
 * Caregivers who want to provide their parents or grandparents with meaningful social activities
 * Older adults looking to stay mentally and physically active with others
