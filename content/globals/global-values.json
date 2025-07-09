@@ -55,19 +55,19 @@
       "value": "resourcesForProviders",
       "label": "Resources for providers",
       "order": 1,
-      "display": "Strategies to talk to my client"
+      "display": "Strategies to Talk to Your Client"
     },
     {
       "value": "resourcesForClients",
-      "label": "Resources for clients",
+      "label": "Resources for Everybody",
       "order": 2,
-      "display": "Resources for everyone"
+      "display": "Resources to Support Your Mental Health"
     },
     {
       "value": "researchAndPolicy",
-      "label": "Research and policy",
+      "label": "Learn about the community",
       "order": 3,
-      "display": "Learn about New York's Asian community"
+      "display": "Learn More About Asian Mental Health"
     }
   ],
   "tags": [
