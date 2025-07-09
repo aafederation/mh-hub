@@ -1,6 +1,9 @@
 ---
 draft: true
 title: How to Support Someone Experiencing a Mental Health Crisis
+summary: >-
+  A guide to identifying what a mental health crisis looks like and how to help
+  a person going through one
 date: 2025-07-01T04:00:00.000Z
 category: resourcesForClients
 typeOfResource: resource
