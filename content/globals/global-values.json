@@ -26,6 +26,10 @@
       "label": "Simplified Chinese"
     },
     {
+      "value": "chinese_t",
+      "label": "Traditional Chinese"
+    },
+    {
       "value": "english",
       "label": "English"
     },
@@ -48,10 +52,6 @@
     {
       "value": "vietnamese",
       "label": "Vietnamese"
-    },
-    {
-      "value": "chinese_t",
-      "label": "Traditional Chinese"
     }
   ],
   "categories": [
