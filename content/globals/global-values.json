@@ -48,6 +48,10 @@
     {
       "value": "vietnamese",
       "label": "Vietnamese"
+    },
+    {
+      "value": "chinese_t",
+      "label": "Traditional Chinese"
     }
   ],
   "categories": [
