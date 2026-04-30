@@ -29,7 +29,7 @@ downloads:
   - language: burmese
     pdf: /img/How%20to%20Support%20Someone%20Experiencing%20a%20Mental%20Health%20Crisis%20-%20Burmese.pdf
   - language: japanese
-    pdf: /img/How%20to%20Support%20Someone%20Experiencing%20a%20Mental%20Health%20Crisis%20-%20Japanese.pdf
+    pdf: /img/pdf/How%20to%20Support%20Someone%20Experiencing%20a%20Mental%20Health%20Crisis%20-%20Japanese.pdf
   - language: hindi
     pdf: /img/How%20to%20Support%20Someone%20Experiencing%20a%20Mental%20Health%20Crisis%20-%20Hindi.pdf
   - {}
