@@ -20,6 +20,8 @@ downloads:
     pdf: /img/pdf/How%20to%20Support%20Someone%20Experiencing%20a%20Mental%20Health%20Crisis%20-%20Bangla.pdf
   - language: chinese
     pdf: /img/pdf/How%20to%20Support%20Someone%20Experiencing%20a%20Mental%20Health%20Crisis%20-%20Chinese.pdf
+  - language: chinese_t
+    pdf: /img/pdf/How to Support Someone Experiencing a Mental Health Crisis - Traditional Chinese.pdf
   - language: english
     pdf: /img/pdf/How%20to%20Support%20Someone%20Experiencing%20a%20Mental%20Health%20Crisis%20-%20English.pdf
   - language: korean
@@ -32,8 +34,6 @@ downloads:
     pdf: /img/pdf/How%20to%20Support%20Someone%20Experiencing%20a%20Mental%20Health%20Crisis%20-%20Japanese.pdf
   - language: hindi
     pdf: /img/pdf/How%20to%20Support%20Someone%20Experiencing%20a%20Mental%20Health%20Crisis%20-%20Hindi.pdf
-  - language: chinese_t
-    pdf: /img/pdf/How to Support Someone Experiencing a Mental Health Crisis - Traditional Chinese.pdf
 relatedResources:
   - post: content/post/identifying-depression.md
   - post: content/post/mentalhealth-faq.md
