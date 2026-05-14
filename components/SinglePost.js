@@ -21,14 +21,14 @@ export const SinglePost = ({ postData }) => {
         / {postData.title}
       </div>
       <span className="date">
-        <span data-tina-field={tinaField(postData, "date")}>
+        {/* <span data-tina-field={tinaField(postData, "date")}>
           {new Date(postData?.date).toLocaleDateString("en-us", {
             day: "2-digit",
             month: "short",
             year: "numeric",
           })}
         </span>{" "}
-        |{" "}
+        |{" "} */}
         <span data-tina-field={tinaField(postData)}>
           {postData?.tags
             ?.map(

@@ -40,13 +40,13 @@ export const ResourceItemCard = ({ resource }) => {
           </div>
         </div>
       </a>
-      <span className="date" data-tina-field={tinaField(resource, "date")}>
+      {/* <span className="date" data-tina-field={tinaField(resource, "date")}>
         {new Date(resource?.date).toLocaleDateString("en-us", {
           day: "2-digit",
           month: "short",
           year: "numeric",
         })}
-      </span>
+      </span> */}
       <h2
         className="pad-top-300"
         data-tina-field={tinaField(resource, "title")}
