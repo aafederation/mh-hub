@@ -30,6 +30,8 @@ downloads:
     pdf: /img/pdf/Identifying%20Depression%20-%20Urdu.pdf
   - language: hindi
     pdf: /img/pdf/Identifying%20Depression%20-%20Hindi.pdf
+  - language: japanese
+    pdf: /img/pdf/Identifying%20Depression%20-%20Japanese.pdf
 relatedResources:
   - post: content/post/mentalhealth-faq.md
   - post: content/post/recognizing-signs-of-mental-health-distress-in-older-adults.md
