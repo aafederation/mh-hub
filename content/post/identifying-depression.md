@@ -16,18 +16,17 @@ downloads:
     pdf: /img/pdf/Identifying%20Depression%20-%20Arabic.pdf
   - language: bangla
     pdf: /img/pdf/Identifying%20Depression%20-%20Bangla.pdf
-  - language: chinese
-    pdf: /img/pdf/Identifying%20Depression%20-%20Chinese.pdf
   - language: english
     pdf: /img/pdf/Identifying Depression.pdf
   - language: korean
     pdf: /img/pdf/Identifying%20Depression%20-%20Korean.pdf
   - language: urdu
     pdf: /img/pdf/Identifying%20Depression%20-%20Urdu.pdf
+  - language: chinese
+    pdf: /img/pdf/Identifying%20Depression%20-%20Simplified%20Chinese.pdf
 relatedResources:
   - post: content/post/mentalhealth-faq.md
-  - post: >-
-      content/post/recognizing-signs-of-mental-health-distress-in-older-adults.md
+  - post: content/post/recognizing-signs-of-mental-health-distress-in-older-adults.md
   - post: content/post/mental-health-directory.md
 ---
 
