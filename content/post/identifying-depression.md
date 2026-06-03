@@ -23,7 +23,7 @@ downloads:
   - language: chinese_t
     pdf: /img/pdf/Identifying%20Depression%20-%20Traditional%20Chinese.pdf
   - language: english
-    pdf: /img/pdf/Identifying Depression.pdf
+    pdf: /img/pdf/Identifying%20Depression%20-%20English.pdf
   - language: hindi
     pdf: /img/pdf/Identifying%20Depression%20-%20Hindi.pdf
   - language: japanese
