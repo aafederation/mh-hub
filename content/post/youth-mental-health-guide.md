@@ -30,3 +30,4 @@ relatedResources:
   - post: content/post/mentalhealth-faq.md
 ---
 
+This guide helps you recognize signs of mental health conditions and know how to ask for support.
