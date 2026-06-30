@@ -22,5 +22,7 @@ downloads:
     pdf: /img/pdf/Youth%20Mental%20Health%20Guide%20-%20Simplified%20Chinese.pdf
   - language: korean
     pdf: /img/pdf/Youth%20Mental%20Health%20Guide%20-%20Korean.pdf
+  - language: urdu
+    pdf: /img/pdf/Youth%20Mental%20Health%20Guide%20-%20Urdu.pdf
 ---
 
