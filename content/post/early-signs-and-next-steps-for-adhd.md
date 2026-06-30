@@ -1,6 +1,7 @@
 ---
 draft: true
 title: Early Signs and Next Steps for ADHD
+summary: Early signs of ADHD and next steps to take for parents and guardians
 date: 2026-07-01T00:00:00.000Z
 category: resourcesForClients
 typeOfResource: resource
@@ -12,5 +13,8 @@ tags:
 downloads:
   - language: english
     pdf: /img/pdf/Early%20Signs%20and%20Next%20Steps%20for%20ADHD%20-%20English.pdf
+  - language: arabic
+    pdf: /img/pdf/Early%20Signs%20and%20Next%20Steps%20for%20ADHD%20-%20Arabic.pdf
 ---
 
+Early signs of ADHD and next steps to take for parents and guardians.
