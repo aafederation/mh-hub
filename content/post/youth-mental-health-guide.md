@@ -6,6 +6,7 @@ date: 2026-07-01T00:00:00.000Z
 category: resourcesForClients
 typeOfResource: resource
 type: article
+image: /img/Thumbnail Images/Youth Mental Health Guide.png
 tags:
   - youth
   - anxiety
@@ -13,5 +14,7 @@ tags:
 downloads:
   - language: english
     pdf: /img/pdf/Youth%20Mental%20Health%20Guide%20-%20English.pdf
+  - language: arabic
+    pdf: /img/pdf/Youth%20Mental%20Health%20Guide%20-%20Arabic.pdf
 ---
 
