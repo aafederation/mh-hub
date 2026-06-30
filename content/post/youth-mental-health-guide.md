@@ -1,7 +1,7 @@
 ---
 draft: true
 title: Youth Mental Health Guide
-summary: This guide helps you recognize signs of mental health conditions and know how to ask for support.
+summary: This guide helps you recognize signs of mental health conditions and know how to ask for support
 date: 2026-07-01T00:00:00.000Z
 category: resourcesForClients
 typeOfResource: resource
@@ -30,4 +30,4 @@ relatedResources:
   - post: content/post/mentalhealth-faq.md
 ---
 
-This guide helps you recognize signs of mental health conditions and know how to ask for support
+This guide helps you recognize signs of mental health conditions and know how to ask for support.
