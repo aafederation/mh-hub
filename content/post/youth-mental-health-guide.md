@@ -24,5 +24,7 @@ downloads:
     pdf: /img/pdf/Youth%20Mental%20Health%20Guide%20-%20Korean.pdf
   - language: urdu
     pdf: /img/pdf/Youth%20Mental%20Health%20Guide%20-%20Urdu.pdf
+relatedResources:
+  - post: content/post/how-to-support-someone-experiencing-a-mental-health-crisis.md
 ---
 
