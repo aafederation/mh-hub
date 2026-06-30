@@ -15,6 +15,8 @@ downloads:
     pdf: /img/pdf/Early%20Signs%20and%20Next%20Steps%20for%20ADHD%20-%20English.pdf
   - language: arabic
     pdf: /img/pdf/Early%20Signs%20and%20Next%20Steps%20for%20ADHD%20-%20Arabic.pdf
+  - language: bangla
+    pdf: /img/pdf/Early%20Signs%20and%20Next%20Steps%20for%20ADHD%20-%20Bangla.pdf
 ---
 
 Early signs of ADHD and next steps to take for parents and guardians.
