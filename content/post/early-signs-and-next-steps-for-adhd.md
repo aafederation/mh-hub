@@ -26,6 +26,7 @@ downloads:
 relatedResources:
   - post: content/post/mentalhealth-faq.md
   - post: content/post/how-to-support-child-bullying.md
+  - post: content/post/mental-health-directory.md
 ---
 
 Early signs of ADHD and next steps to take for parents and guardians.
