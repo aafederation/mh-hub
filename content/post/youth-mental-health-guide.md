@@ -26,5 +26,6 @@ downloads:
     pdf: /img/pdf/Youth%20Mental%20Health%20Guide%20-%20Urdu.pdf
 relatedResources:
   - post: content/post/how-to-support-someone-experiencing-a-mental-health-crisis.md
+  - post: content/post/protecting-your-mental-health.md
 ---
 
