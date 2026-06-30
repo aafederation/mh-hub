@@ -27,5 +27,6 @@ downloads:
 relatedResources:
   - post: content/post/how-to-support-someone-experiencing-a-mental-health-crisis.md
   - post: content/post/protecting-your-mental-health.md
+  - post: content/post/mentalhealth-faq.md
 ---
 
