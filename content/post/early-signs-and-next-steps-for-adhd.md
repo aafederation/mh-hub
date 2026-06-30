@@ -25,6 +25,7 @@ downloads:
     pdf: /img/pdf/Early%20Signs%20and%20Next%20Steps%20for%20ADHD%20-%20Urdu.pdf
 relatedResources:
   - post: content/post/mentalhealth-faq.md
+  - post: content/post/how-to-support-child-bullying.md
 ---
 
 Early signs of ADHD and next steps to take for parents and guardians.
