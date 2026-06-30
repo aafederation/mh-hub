@@ -16,5 +16,7 @@ downloads:
     pdf: /img/pdf/Youth%20Mental%20Health%20Guide%20-%20English.pdf
   - language: arabic
     pdf: /img/pdf/Youth%20Mental%20Health%20Guide%20-%20Arabic.pdf
+  - language: bangla
+    pdf: /img/pdf/Youth%20Mental%20Health%20Guide%20-%20Bangla.pdf
 ---
 
