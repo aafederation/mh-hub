@@ -18,32 +18,25 @@ downloads:
   - language: bangla
     pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Bangla.pdf
   - language: burmese
-    pdf: >-
-      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Burmese.pdf
+    pdf: /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Burmese.pdf
   - language: cambodian
-    pdf: >-
-      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Cambodian.pdf
+    pdf: /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Cambodian.pdf
   - language: chinese
     pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Chinese.pdf
   - language: english
-    pdf: /img/How to Support Your Child If They're Being Bullied - English.pdf
+    pdf: ''
   - language: hindi
-    pdf: >-
-      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Hindi.pdf
+    pdf: /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Hindi.pdf
   - language: japanese
-    pdf: >-
-      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Japanese.pdf
+    pdf: /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Japanese.pdf
   - language: korean
     pdf: /img/pdf/How to Support Your Child If They_re Being Bullied - Korean.pdf
   - language: urdu
-    pdf: >-
-      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Urdu.pdf
+    pdf: /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Urdu.pdf
   - language: vietnamese
-    pdf: >-
-      /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Vietnamese.pdf
+    pdf: /img/pdf/How%20to%20Support%20Your%20Child%20If%20They're%20Being%20Bullied%20-%20Vietnamese.pdf
 relatedResources:
-  - post: >-
-      content/post/link-seeking-help,-finding-hope:-mental-health-challenges-and-solutions-for-asian-americans-in-new-york-city.md
+  - post: 'content/post/link-seeking-help,-finding-hope:-mental-health-challenges-and-solutions-for-asian-americans-in-new-york-city.md'
   - post: content/post/mental-health-directory.md
   - post: content/post/family-talk.md
 ---
