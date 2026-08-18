@@ -16,7 +16,7 @@ export const DownloadPDF = ({ downloads }) => {
               download.pdf && (
                 <h3 key={download.language}>
                   <a
-                    className="link-pointer-gold"
+                    className="link-pointer-gold language-resource"
                     data-tina-field={tinaField(download)}
                     onClick={() => setPdfToShow(download.pdf)}
                   >
